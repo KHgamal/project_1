@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:project_1/core/res/colours.dart';
 import 'package:project_1/generated/l10n.dart';
 
+import '../../../../core/res/media_res.dart';
+import '../widgets/home_gridview.dart';
+
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
   static const route = '/home';
@@ -9,8 +12,10 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colours.secondaryColour,
-      appBar: PreferredSize(
+      backgroundColor: Colors.white,
+      appBar:
+      PreferredSize
+        (
         preferredSize: const Size.fromHeight(100.0),
         child: AppBar(
           flexibleSpace: Container(
@@ -92,30 +97,48 @@ class HomeView extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.only(left:16.0,right:16.0,top: 30),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        child: Column(
           children: [
-            Text(
-                S.of(context).product_title,
-              style: const TextStyle(
-                color: Colours.txtMainColor,
-                fontSize: 18.0,
-                fontWeight: FontWeight.w600
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                    S.of(context).product_title,
+                  style: const TextStyle(
+                    color: Colours.txtMainColor,
+                    fontSize: 18.0,
+                    fontWeight: FontWeight.w600
 
-              ),
-            ),
-            IconButton(
-                onPressed: (){},
-                icon:const Icon(
-                    Icons.filter_list,
-
+                  ),
                 ),
+                IconButton(
+                    onPressed: (){},
+                    icon:const Icon(
+                        Icons.filter_list,
+
+                    ),
+                ),
+              ],
+            ),
+            Padding(
+              padding: const EdgeInsets.only(top: 20),
+              child: ShowProductsGridView(),
             ),
           ],
         ),
       ),
+
       
     );
   }
 
 }
+
+
+
+
+
+
+
+
+
