@@ -1,5 +1,7 @@
 {
-  "title": "عنوان التطبيق",
+  "title": "مرحبا بك ",
+  "user_name": "احمد",
+  "product_title": "منتجات اليوم",
   "navbar_main": "الرئيسيه",
   "navbar_offers": "العروض",
   "navbar_profile": "حسابى"
