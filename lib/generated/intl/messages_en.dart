@@ -25,6 +25,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "navbar_main": MessageLookupByLibrary.simpleMessage("Home"),
         "navbar_offers": MessageLookupByLibrary.simpleMessage("Home"),
         "navbar_profile": MessageLookupByLibrary.simpleMessage("Home"),
-        "title": MessageLookupByLibrary.simpleMessage("title")
+        "product_title":
+            MessageLookupByLibrary.simpleMessage("Today\'s products "),
+        "title": MessageLookupByLibrary.simpleMessage("Welcome"),
+        "user_name": MessageLookupByLibrary.simpleMessage("Ahmed")
       };
 }

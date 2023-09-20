@@ -50,11 +50,31 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
-  /// `title`
+  /// `Welcome`
   String get title {
     return Intl.message(
-      'title',
+      'Welcome',
       name: 'title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ahmed`
+  String get user_name {
+    return Intl.message(
+      'Ahmed',
+      name: 'user_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Today's products `
+  String get product_title {
+    return Intl.message(
+      'Today\'s products ',
+      name: 'product_title',
       desc: '',
       args: [],
     );

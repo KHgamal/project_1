@@ -47,25 +47,55 @@ int stackIndex = 2;
         items: [
           BottomNavigationBarItem(
             backgroundColor: Colors.white,
-            icon: Icon(
-              Icons.person_2_outlined,
-              color: (stackIndex == 0)?
-              Colours.primaryColour:Colours.txtDetailedColor,
+            icon: Container(
+              width: 68,
+              height: 32,
+              decoration: BoxDecoration(
+                color: (stackIndex == 0)?
+                Colours.accentColour:Colors.white,
+                borderRadius: BorderRadius.circular(28),
+              ),
+              child: Icon(
+                Icons.person_2_outlined,
+                color: (stackIndex == 0)?
+                Colours.primaryColour:Colours.txtDetailedColor,
+              ),
             ),label: S.of(context).navbar_profile,),
           BottomNavigationBarItem(
             backgroundColor: Colors.white,
-            icon: Icon(
-              Icons.local_offer_outlined
-              ,color: (stackIndex == 1)?
-            Colours.primaryColour:Colours.txtDetailedColor,
+            icon: Container(
+              width: 68,
+              height: 32,
+
+              decoration: BoxDecoration(
+                color: (stackIndex == 1)?
+                Colours.accentColour:Colors.white,
+                borderRadius: BorderRadius.circular(28),
+              ),
+              child: Icon(
+                Icons.local_offer_outlined
+                ,color: (stackIndex == 1)?
+              Colours.primaryColour:Colours.txtDetailedColor,
+              ),
             ),label: S.of(context).navbar_offers,),
 
           BottomNavigationBarItem(
             backgroundColor: Colors.white,
-            icon: Icon(
-              Icons.home,
-              color: (stackIndex == 2)?
-              Colours.primaryColour:Colours.txtDetailedColor,
+            icon: Container(
+                width: 68,
+                height: 32,
+
+                decoration: BoxDecoration(
+                color: (stackIndex == 2)?
+                Colours.accentColour:Colors.white,
+                borderRadius: BorderRadius.circular(28),
+
+              ),
+              child: Icon(
+                Icons.home,
+                color: (stackIndex == 2)?
+                Colours.primaryColour:Colours.txtDetailedColor,
+              ),
             ),label: S.of(context).navbar_main,),
         ],
 

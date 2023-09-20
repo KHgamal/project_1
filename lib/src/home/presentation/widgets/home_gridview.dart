@@ -8,6 +8,7 @@ class ShowProductsGridView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GridView.builder(
+      shrinkWrap: true,
       itemCount: 4,
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           childAspectRatio:0.9,
