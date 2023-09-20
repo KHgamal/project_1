@@ -1,6 +1,7 @@
+import 'package:equatable/equatable.dart';
 import 'package:project_1/core/enums/product_state.dart';
 
-class Product{
+class Product extends Equatable{
 
   final String id;
   final String productType;
@@ -29,6 +30,9 @@ class Product{
     this.temperature,
     this.billImage,
 });
+
+  @override
+  List<Object?> get props => [id];
 
 }
 
