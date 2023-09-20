@@ -26,6 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSwatch(
           accentColor: Colours.primaryColour,),
       ),
+      debugShowCheckedModeBanner: false,
       locale: const Locale('ar'),
       localizationsDelegates: const [
         S.delegate,

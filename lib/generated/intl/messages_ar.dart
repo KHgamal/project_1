@@ -25,6 +25,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "navbar_main": MessageLookupByLibrary.simpleMessage("الرئيسيه"),
         "navbar_offers": MessageLookupByLibrary.simpleMessage("العروض"),
         "navbar_profile": MessageLookupByLibrary.simpleMessage("حسابى"),
-        "title": MessageLookupByLibrary.simpleMessage("عنوان التطبيق")
+        "product_title": MessageLookupByLibrary.simpleMessage("منتجات اليوم"),
+        "title": MessageLookupByLibrary.simpleMessage("مرحبا بك "),
+        "user_name": MessageLookupByLibrary.simpleMessage("احمد")
       };
 }
