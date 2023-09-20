@@ -1,5 +1,6 @@
 enum ProductState{
-  available,
   pending,
-  done
+  onProgress,
+  delivered,
+  canceled
 }

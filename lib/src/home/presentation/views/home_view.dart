@@ -11,14 +11,12 @@ class HomeView extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colours.secondaryColour,
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(100.0),
+        preferredSize: const Size.fromHeight(100.0),
         child: AppBar(
           flexibleSpace: Container(
             decoration: const BoxDecoration(
               gradient: Colours.appBarGradient,
-
             ),
-
           ),
           toolbarHeight: 100,
           title: Row(
@@ -26,7 +24,7 @@ class HomeView extends StatelessWidget {
             children: [
               Row(
                 children: [
-                  Container(
+                  const SizedBox(
                     width: 48,
                     height: 48,
                     child: CircleAvatar(
@@ -34,11 +32,9 @@ class HomeView extends StatelessWidget {
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/originals/f5/c2/33/f5c233abe166b186b989293ad18ba07a.jpg'
                       ),
-
-
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 10.0,
                   ),
                   Column(
@@ -46,7 +42,7 @@ class HomeView extends StatelessWidget {
                     children: [
                       Text(
                         S.of(context).title,
-                        style: TextStyle(
+                        style: const TextStyle(
                           color: Colours.secondaryColour,
                           fontSize: 16.0,
                           fontWeight: FontWeight.w400
@@ -54,7 +50,7 @@ class HomeView extends StatelessWidget {
                       ),
                       Text(
                         S.of(context).user_name,
-                        style: TextStyle(
+                        style: const TextStyle(
                           color: Colours.secondaryColour,
                           fontSize: 18.0,
                           fontWeight: FontWeight.w700,
@@ -78,7 +74,7 @@ class HomeView extends StatelessWidget {
                   ),
                   child: IconButton(
                     onPressed: (){},
-                    icon:Icon(
+                    icon:const Icon(
                       Icons.notifications_none_outlined,
                       color: Colours.primaryColour,
                       size: 24.0,
@@ -101,7 +97,7 @@ class HomeView extends StatelessWidget {
           children: [
             Text(
                 S.of(context).product_title,
-              style: TextStyle(
+              style: const TextStyle(
                 color: Colours.txtMainColor,
                 fontSize: 18.0,
                 fontWeight: FontWeight.w600
@@ -110,7 +106,7 @@ class HomeView extends StatelessWidget {
             ),
             IconButton(
                 onPressed: (){},
-                icon:Icon(
+                icon:const Icon(
                     Icons.filter_list,
 
                 ),
