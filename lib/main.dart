@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         visualDensity: VisualDensity.adaptivePlatformDensity,
         useMaterial3: true,
+        fontFamily: 'Cairo',
         colorScheme: ColorScheme.fromSwatch(
           accentColor: Colours.primaryColour,),
       ),

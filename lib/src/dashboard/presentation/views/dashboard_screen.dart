@@ -24,7 +24,7 @@ int stackIndex = 2;
         children: const[
           Placeholder(),
           Placeholder(),
-          ProductView(),
+          HomeView(),
         ],
       ),
       bottomNavigationBar: Container(
