@@ -5,7 +5,7 @@ import 'package:project_1/core/utils/typedefs.dart';
 
 class GetAllProductsUseCase extends UseCaseWithoutParams<List<Product>>{
 
-  final GetProductsRepository getProductsRepository;
+  final ProductsRepository getProductsRepository;
 
   const GetAllProductsUseCase({required this.getProductsRepository});
 

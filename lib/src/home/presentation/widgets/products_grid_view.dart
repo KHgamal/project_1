@@ -9,7 +9,7 @@ class ShowProductsGridView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final isLandScape=MediaQuery.of(context).orientation==Orientation.landscape;
-    final size =MediaQuery.of(context).size;
+
     return LayoutBuilder(
       builder: (context,constraints){
         return Wrap(

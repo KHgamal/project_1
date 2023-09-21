@@ -1,4 +1,6 @@
 import 'package:equatable/equatable.dart';
+import 'package:project_1/core/common/feature/product/domain/entities/location_coordinates.dart';
+import 'package:project_1/core/common/feature/product/domain/entities/location_details.dart';
 import 'package:project_1/core/enums/product_state.dart';
 
 class Product extends Equatable{
@@ -6,8 +8,10 @@ class Product extends Equatable{
   final String id;
   final String productType;
   final String senderId;
-  final Location senderLocation;
-  final Location receiverLocation;
+  final LocationDetails senderLocationDetails;
+  final LocationCoordinates senderLocationCoordinates;
+  final LocationDetails receiverLocationDetails;
+  final LocationCoordinates receiverLocationCoordinates;
   final String? billImage;
   final String? shipmentDetails;
   final bool withBill;
@@ -18,8 +22,10 @@ class Product extends Equatable{
 
   const Product({
     required this.id,
-    required this.receiverLocation,
-    required this.senderLocation,
+    required this.senderLocationDetails,
+    required this.senderLocationCoordinates,
+    required this.receiverLocationDetails,
+    required this.receiverLocationCoordinates,
     required this.createdAt,
     required this.productType,
     required this.senderId,
@@ -36,32 +42,7 @@ class Product extends Equatable{
 
 }
 
-class Location{
 
-  final double xCoordinates;
-  final double yCoordinates;
-  final String area;
-  final int phone;
-  final String locationDetails;
-  final String? buildingNumber;
-  final String? floorNumber;
-  final String? apartmentNumber;
-  final String? specialMark;
-
-  const Location({
-    required this.xCoordinates,
-    required this.yCoordinates,
-    required this.area,
-    required this.phone,
-    required this.locationDetails,
-     this.buildingNumber,
-     this.floorNumber,
-     this.apartmentNumber,
-     this.specialMark,
-});
-
-
-}
 
 
 
