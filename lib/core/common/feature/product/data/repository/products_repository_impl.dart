@@ -4,7 +4,7 @@ import 'package:project_1/core/utils/typedefs.dart';
 
 import '../../domain/repository/products_repository.dart';
 
-class ProductsRepo implements GetProductsRepository{
+class ProductsRepo implements ProductsRepository{
   //TODO: uncomment when dto is done
   //DataSource dataSource;
   //productsRepo(this.datSource);
