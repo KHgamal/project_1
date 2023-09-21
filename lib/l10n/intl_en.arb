@@ -4,5 +4,6 @@
   "product_title": "Today's products ",
   "navbar_main": "Home",
   "navbar_offers": "Home",
-  "navbar_profile": "Home"
+  "navbar_profile": "Home",
+  "product_detail_title": "product's information",
 }

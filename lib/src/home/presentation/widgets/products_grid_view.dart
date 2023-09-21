@@ -8,6 +8,8 @@ class ShowProductsGridView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final isLandScape=MediaQuery.of(context).orientation==Orientation.landscape;
+
     return LayoutBuilder(
       builder: (context,constraints){
         return Wrap(
@@ -15,15 +17,21 @@ class ShowProductsGridView extends StatelessWidget {
           runSpacing: constraints.maxWidth*0.04,
           runAlignment: WrapAlignment.spaceEvenly,
           children: textList.map((e) {
-            return Container(
-                padding: const EdgeInsets.all(16),
-                height: constraints.maxWidth*0.48,
-                width: constraints.maxWidth*0.48,
-                decoration: BoxDecoration(
-                  color: Colours.secondaryColour,
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: const ProductsInformationListView()
+            return GestureDetector(
+              onTap: ()=>  Navigator.pushNamed(
+                context,
+                '/product_details',
+              ),
+              child: Container(
+                  padding: const EdgeInsets.all(16),
+                  height: isLandScape? constraints.maxWidth*0.28: constraints.maxWidth*0.48,
+                  width: constraints.maxWidth*0.48,
+                  decoration: BoxDecoration(
+                    color: Colours.secondaryColour,
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: const ProductsInformationListView()
+              ),
             );
           }).toList(),
 
