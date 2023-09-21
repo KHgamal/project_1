@@ -3,6 +3,8 @@ import 'package:project_1/core/res/colours.dart';
 import 'package:project_1/generated/l10n.dart';
 import 'package:project_1/src/home/presentation/views/home_view.dart';
 
+import '../../../home/presentation/views/product_details_view.dart';
+
 class DashBoardScreen extends StatefulWidget {
   const DashBoardScreen({super.key});
   static const route = '/dashboard';
@@ -22,7 +24,7 @@ int stackIndex = 2;
         children: const[
           Placeholder(),
           Placeholder(),
-          HomeView(),
+          ProductView(),
         ],
       ),
       bottomNavigationBar: Container(
