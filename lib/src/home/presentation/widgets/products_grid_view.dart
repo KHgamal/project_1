@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:project_1/core/res/colours.dart';
 import 'package:project_1/src/home/presentation/widgets/product_information_list.dart';
 
+import '../views/product_details_view.dart';
+
 
 class ShowProductsGridView extends StatelessWidget {
   const ShowProductsGridView({Key? key}) : super(key: key);
@@ -19,8 +21,9 @@ class ShowProductsGridView extends StatelessWidget {
           children: textList.map((e) {
             return GestureDetector(
               onTap: ()=>  Navigator.pushNamed(
-                context,
-                '/product_details',
+                  context,
+                  '/product_details',
+
               ),
               child: Container(
                   padding: const EdgeInsets.all(16),
