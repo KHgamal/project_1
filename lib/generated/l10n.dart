@@ -370,26 +370,6 @@ class S {
     );
   }
 
-  /// `or`
-  String get or_text {
-    return Intl.message(
-      'or',
-      name: 'or_text',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `continue with Google`
-  String get login_with_google {
-    return Intl.message(
-      'continue with Google',
-      name: 'login_with_google',
-      desc: '',
-      args: [],
-    );
-  }
-
   /// `Sign up`
   String get sign_up_text_button {
     return Intl.message(

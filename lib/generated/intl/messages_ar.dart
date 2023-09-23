@@ -40,12 +40,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "login_hint": MessageLookupByLibrary.simpleMessage(
             "يرجى تسجيل الدخول إلى حسابك للمتابعة."),
         "login_title": MessageLookupByLibrary.simpleMessage("تسجيل دخول"),
-        "login_with_google":
-            MessageLookupByLibrary.simpleMessage("المتابعة بواسطة جوجل"),
         "navbar_main": MessageLookupByLibrary.simpleMessage("الرئيسيه"),
         "navbar_offers": MessageLookupByLibrary.simpleMessage("العروض"),
         "navbar_profile": MessageLookupByLibrary.simpleMessage("حسابى"),
-        "or_text": MessageLookupByLibrary.simpleMessage("أو"),
         "password_label": MessageLookupByLibrary.simpleMessage("الرقم السري"),
         "phone_number": MessageLookupByLibrary.simpleMessage("رقم الهاتف"),
         "product_detail_title":

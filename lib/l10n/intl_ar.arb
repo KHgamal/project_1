@@ -31,8 +31,6 @@
   "password_label":"الرقم السري",
   "remember_me":"تذكرنى",
   "forget_password":"هل نسيت كلمة المرور؟",
-  "or_text":"أو",
-  "login_with_google":"المتابعة بواسطة جوجل",
   "sign_up_text_button":"اشتراك",
   "do_not_have_account":"ليس لديك حساب؟"
 }

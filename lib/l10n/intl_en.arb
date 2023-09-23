@@ -31,8 +31,6 @@
   "password_label":"password",
   "remember_me":"Remember me",
   "forget_password":"Did you forget your password ?",
-  "or_text":"or",
-  "login_with_google":"continue with Google",
   "sign_up_text_button":"Sign up",
   "do_not_have_account":"don't have an account ?"
 }

@@ -43,12 +43,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "login_hint": MessageLookupByLibrary.simpleMessage(
             "please , login to your account to continue"),
         "login_title": MessageLookupByLibrary.simpleMessage("Login"),
-        "login_with_google":
-            MessageLookupByLibrary.simpleMessage("continue with Google"),
         "navbar_main": MessageLookupByLibrary.simpleMessage("Home"),
         "navbar_offers": MessageLookupByLibrary.simpleMessage("Home"),
         "navbar_profile": MessageLookupByLibrary.simpleMessage("Home"),
-        "or_text": MessageLookupByLibrary.simpleMessage("or"),
         "password_label": MessageLookupByLibrary.simpleMessage("password"),
         "phone_number": MessageLookupByLibrary.simpleMessage("Phone number"),
         "product_detail_title":

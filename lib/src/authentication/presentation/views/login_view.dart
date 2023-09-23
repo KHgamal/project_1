@@ -65,47 +65,6 @@ class LoginView extends StatelessWidget {
                 ),
                 const SizedBox(height: 8,),
                 MyButton(title: S.of(context).login_title, onPressed: (){}),
-                Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 12),
-                  child: Row(
-                    children: [
-                    const  Expanded(
-                      child: Divider(
-                        color: Colors.black,
-                      )
-        ),
-                      Text(
-                        "   ${S.of(context).or_text}   ",style: Styles.textFieldLabel.copyWith(
-                        color: Colours.txtDetailedColor
-                      ),
-                      ),
-                     const Expanded(
-                          child: Divider(
-                            color: Colors.black,
-                          )
-                      ),
-                    ],
-                  ),
-                ),
-                GestureDetector(
-                  child: Container(
-                    padding: const EdgeInsets.all(10),
-                    decoration: BoxDecoration(
-                      //color: Colors.cyan.shade100,
-                      borderRadius: BorderRadius.circular(5),
-                      border: Border.all(color: Colours.primaryColour,width: 0.5),
-                      
-                    ),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Image.asset("assets/images/google.png"),
-                        const SizedBox(width: 8,),
-                        Text(S.of(context).login_with_google , style: Styles.textFieldLabel,)
-                      ],
-                    ),
-                  ),
-                ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
