@@ -26,16 +26,17 @@
   "type": "النوع",
   "send_offer": "ارسل عرض",
   "create_account": "إنشاء حساب",
-  "fill_form": "يرجى ملء النموذج",
-  "full_name": "ادخل الاسم",
-  "ahmed_al_anizi": "أحمد العنيزي",
+  "fill_form": "يرجى ملء النموذج التالي لإنشاء حسابك",
+  "full_name": "ادخل الاسم بالكامل",
+  "name_example": "أحمد العنيزي",
   "enter_phone_number": "ادخل رقم الهاتف",
   "phone_number_example": "504X XXX XXX",
-  "enter_email": "ادخل البريد الإلكتروني",
+  "enter_email": "ادخل بريدك الالكتروني",
   "email_example": "example@mail.com",
-  "create_password": "انشئ كلمة المرور",
-  "agree_terms": "أوافق على الشروط والأحكام",
-  "save_complete": "حفظ واستكمال الحساب"
+  "create_password": "انشئ رقمك السري",
+  "confirm_password": "تأكيد الرقم السري",
+  "agree_terms": "أوافق على تطبيق الشروط والأحكام",
+  "save_complete": "احفظ واكمل إنشاء حسابك"
 
 
 }

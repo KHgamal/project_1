@@ -5,7 +5,7 @@ Route<dynamic> generateFunction(RouteSettings settings){
   switch(settings.name){
 
     case '/':
-      return _pageBuilder((_) => const DashBoardScreen(),
+      return _pageBuilder((_) => DashBoardScreen(),
         settings: settings,);
 
     default:

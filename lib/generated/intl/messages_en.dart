@@ -26,12 +26,12 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Address details"),
         "agree_terms": MessageLookupByLibrary.simpleMessage(
             "I agree to the terms and conditions"),
-        "ahmed_al_anizi":
-            MessageLookupByLibrary.simpleMessage("Ahmed Al-Anizi"),
         "apartment_number":
             MessageLookupByLibrary.simpleMessage("Apartment number"),
         "building_number":
             MessageLookupByLibrary.simpleMessage("Building number"),
+        "confirm_password":
+            MessageLookupByLibrary.simpleMessage("Confirm your password"),
         "create_account":
             MessageLookupByLibrary.simpleMessage("Create Account"),
         "create_password":
@@ -51,6 +51,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "full_name":
             MessageLookupByLibrary.simpleMessage("Enter your full name"),
         "humidity": MessageLookupByLibrary.simpleMessage("Humidity"),
+        "name_example": MessageLookupByLibrary.simpleMessage("Ahmed Al-Anizi"),
         "navbar_main": MessageLookupByLibrary.simpleMessage("Home"),
         "navbar_offers": MessageLookupByLibrary.simpleMessage("Home"),
         "navbar_profile": MessageLookupByLibrary.simpleMessage("Home"),
