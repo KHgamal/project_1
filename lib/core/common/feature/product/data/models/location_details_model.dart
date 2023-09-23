@@ -11,17 +11,17 @@ class LocationDetailsModel extends LocationDetails {
       super.specialMark});
       
   LocationDetailsModel copyWith(
-      {required String area,
-      required String phone,
-      required String locationDetails,
+      {String? area,
+      String? phone,
+      String? locationDetails,
       String? buildingNumber,
       String? floorNumber,
       String? apartmentNumber,
       String? specialMark}) {
     return LocationDetailsModel(
-      area: area,
-      phone: phone,
-      locationDetails: locationDetails,
+      area: area?? this.area,
+      phone: phone?? this.phone,
+      locationDetails: locationDetails??this.locationDetails,
       buildingNumber: buildingNumber,
       floorNumber: floorNumber,
       apartmentNumber: apartmentNumber,
@@ -31,9 +31,9 @@ class LocationDetailsModel extends LocationDetails {
 
   factory LocationDetailsModel.fromJson(Map<String, dynamic> json) {
     return LocationDetailsModel(
-        area: json['area'],
-        phone: json['phone'],
-        locationDetails: json['details'],
+        area: json['area'] as String,
+        phone: json['phone'] as String,
+        locationDetails: json['details'] as String,
         buildingNumber:
             json.containsKey('buildingNumber') ? json['buildingNumber'] : null,
         floorNumber:

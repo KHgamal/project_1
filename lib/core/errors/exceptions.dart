@@ -4,7 +4,7 @@ class ApiException extends Equatable implements Exception{
 
   const ApiException({required this.error,required this.code});
   final String error;
-  final String code;
+  final int code;
 
   @override
   List<Object?> get props => [error,code];

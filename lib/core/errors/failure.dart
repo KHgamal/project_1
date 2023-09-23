@@ -27,11 +27,11 @@ class CacheFailure extends Failure{
 
 }
 
-class ServerFailure extends Failure{
+class ApiFailure extends Failure{
 
-  const ServerFailure({required super.error,required super.code});
+  const ApiFailure({required super.error,required super.code});
 
-  ServerFailure.fromException(ApiException exception)
+  ApiFailure.fromException(ApiException exception)
       : this(error: exception.error, code: exception.code);
 
 

@@ -4,6 +4,8 @@ import 'package:project_1/core/res/colours.dart';
 import 'package:project_1/core/services/injection_container.dart';
 import 'package:project_1/core/services/router.dart';
 import 'package:project_1/generated/l10n.dart';
+import 'package:project_1/src/dashboard/presentation/providers/dashboard_controller.dart';
+import 'package:provider/provider.dart';
 
 void main() async{
 
@@ -19,24 +21,30 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: ThemeData(
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-        useMaterial3: true,
-        fontFamily: 'Cairo',
-        colorScheme: ColorScheme.fromSwatch(
-          accentColor: Colours.primaryColour,),
+    return MultiProvider(
+    providers: [
+     ChangeNotifierProvider(
+         create: (_)=>DashboardController()),
+    ]
+    ,child: MaterialApp(
+        theme: ThemeData(
+          visualDensity: VisualDensity.adaptivePlatformDensity,
+          useMaterial3: true,
+          fontFamily: 'Cairo',
+          colorScheme: ColorScheme.fromSwatch(
+            accentColor: Colours.primaryColour,),
+        ),
+        debugShowCheckedModeBanner: false,
+        locale: const Locale('ar'),
+        localizationsDelegates: const [
+          S.delegate,
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
+        ],
+        supportedLocales: S.delegate.supportedLocales,
+        onGenerateRoute: generateFunction,
       ),
-      debugShowCheckedModeBanner: false,
-      locale: const Locale('ar'),
-      localizationsDelegates: const [
-        S.delegate,
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate,
-      ],
-      supportedLocales: S.delegate.supportedLocales,
-      onGenerateRoute: generateFunction,
     );
   }
 }

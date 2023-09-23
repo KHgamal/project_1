@@ -11,10 +11,10 @@ class ProductsInformationListTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Image.asset(icon , width: 20, height:20,),
+        Image.asset(icon , width: 25, height:25,),
         const SizedBox(width:8,),
         Flexible(
-          child: Text(text, maxLines: (index == 1)? 2:1,
+          child: Text(text, maxLines: (index != 2)?2:1,
             overflow: TextOverflow.ellipsis,
             style: const TextStyle( fontSize: 14 , color: Colours.txtMainColor,
             fontWeight: FontWeight.w400

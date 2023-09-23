@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project_1/core/common/widgets/app_bar_action.dart';
+import 'package:project_1/core/common/widgets/nested_back_button.dart';
 import 'package:project_1/core/res/styles.dart';
-
-import '../../../../core/res/colours.dart';
 import '../../../../core/res/media_res.dart';
 class ProductInformationAppbar extends StatelessWidget {
   const ProductInformationAppbar({Key? key}) : super(key: key);
@@ -19,12 +17,7 @@ class ProductInformationAppbar extends StatelessWidget {
             const Text("معلومات المنتج",style:Styles.textStyle18),
           ],
         ),
-        AppBarAction(
-          child: const Icon(
-            Icons.arrow_forward_ios_outlined,
-            color: Colours.txtMainColor,
-            size: 24.0,
-          ), onTap: (){},),
+        const NestedBackButton()
       ],
 
     );

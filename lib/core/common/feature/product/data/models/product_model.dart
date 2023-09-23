@@ -19,36 +19,42 @@ class ProductModel extends Product {
       required super.senderLocationCoordinates,
       required super.receiverLocationDetails,
       required super.receiverLocationCoordinates});
+
+
   ProductModel copyWith(
-      {required String id,
-      required DateTime createdAt,
-      required String productType,
-      required String senderId,
+      {String? id,
+       DateTime? createdAt,
+       String? productType,
+       String? senderId,
       String? billImage,
       String? shipmentDetails,
-      bool withBill=false,
-      String? temperature,
-      String? humidity,
-      ProductState state = ProductState.pending,
-      required LocationDetailsModel senderLocationDetails,
-      required LocationCoordinatesModel senderLocationCoordinates,
-      required LocationDetailsModel receiverLocationDetails,
-      required LocationCoordinatesModel receiverLocationCoordinates}) {
+      bool? withBill,
+      int? temperature,
+      int? humidity,
+      ProductState? state,
+       LocationDetailsModel? senderLocationDetails,
+       LocationCoordinatesModel? senderLocationCoordinates,
+       LocationDetailsModel? receiverLocationDetails,
+       LocationCoordinatesModel? receiverLocationCoordinates}) {
     return ProductModel(
-      id: id,
-      createdAt: createdAt,
-      productType: productType,
-      senderId: senderId,
+      id: id?? this.id,
+      createdAt: createdAt?? this.createdAt,
+      productType: productType?? this.productType,
+      senderId: senderId?? this.senderId,
       billImage: billImage,
       shipmentDetails: shipmentDetails,
-      withBill: withBill,
+      withBill: withBill?? this.withBill,
       temperature: temperature,
       humidity: humidity,
-      state: state,
-      senderLocationDetails: senderLocationDetails,
-      senderLocationCoordinates: senderLocationCoordinates,
-      receiverLocationDetails: receiverLocationDetails,
-      receiverLocationCoordinates: receiverLocationCoordinates,
+      state: state?? this.state,
+      senderLocationDetails: senderLocationDetails
+      ?? this.senderLocationDetails,
+      senderLocationCoordinates: senderLocationCoordinates
+      ??this.senderLocationCoordinates,
+      receiverLocationDetails: receiverLocationDetails
+      ??this.receiverLocationDetails,
+      receiverLocationCoordinates: receiverLocationCoordinates
+      ?? this.receiverLocationCoordinates,
     );
   }
 
@@ -67,7 +73,15 @@ class ProductModel extends Product {
       productType: json['type'],
       shipmentDetails: json.containsKey('details') ? json['details'] : null,
       withBill: json.containsKey('withBill') ? json['withBill'] : false,
-      state: json.containsKey('status') ? json['status'] : ProductState.pending,
+      state: json.containsKey('status') ?
+      (json['status'] == 'Pending')?
+      ProductState.pending:
+      (json['status'] == 'onProgress')?
+      ProductState.onProgress:
+      (json['status'] == 'delivered')?
+      ProductState.delivered:
+      ProductState.canceled
+          : ProductState.pending,
       createdAt: DateTime.parse(json['createdAt']),
       temperature: json.containsKey('maxTemperatureDegree')
           ? json['maxTemperatureDegree']
@@ -77,4 +91,7 @@ class ProductModel extends Product {
           : null,
     );
   }
+
+
+
 }

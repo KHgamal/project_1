@@ -8,6 +8,9 @@ Route<dynamic> generateFunction(RouteSettings settings){
       return _pageBuilder((_) => const DashBoardScreen(),
         settings: settings,);
 
+    case '/product_details':
+        return _pageBuilder((_) => const ProductView(),
+        settings: settings,);
 
     default:
       return _pageBuilder((_) => const Scaffold(

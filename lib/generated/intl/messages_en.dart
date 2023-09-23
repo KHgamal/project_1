@@ -25,6 +25,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "navbar_main": MessageLookupByLibrary.simpleMessage("Home"),
         "navbar_offers": MessageLookupByLibrary.simpleMessage("Home"),
         "navbar_profile": MessageLookupByLibrary.simpleMessage("Home"),
+        "product_detail_title":
+            MessageLookupByLibrary.simpleMessage("product\'s information"),
         "product_title":
             MessageLookupByLibrary.simpleMessage("Today\'s products "),
         "title": MessageLookupByLibrary.simpleMessage("Welcome"),

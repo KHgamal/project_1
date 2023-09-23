@@ -16,8 +16,8 @@ class Product extends Equatable{
   final String? shipmentDetails;
   final bool withBill;
   final ProductState state;
-  final String? temperature;
-  final String? humidity;
+  final int? temperature;
+  final int? humidity;
   final DateTime createdAt;
 
   const Product({
