@@ -309,6 +309,106 @@ class S {
       args: [],
     );
   }
+
+  /// `Login`
+  String get login_title {
+    return Intl.message(
+      'Login',
+      name: 'login_title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `please , login to your account to continue`
+  String get login_hint {
+    return Intl.message(
+      'please , login to your account to continue',
+      name: 'login_hint',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter Email or phone number`
+  String get email_label {
+    return Intl.message(
+      'Enter Email or phone number',
+      name: 'email_label',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `password`
+  String get password_label {
+    return Intl.message(
+      'password',
+      name: 'password_label',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Remember me`
+  String get remember_me {
+    return Intl.message(
+      'Remember me',
+      name: 'remember_me',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Did you forget your password ?`
+  String get forget_password {
+    return Intl.message(
+      'Did you forget your password ?',
+      name: 'forget_password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `or`
+  String get or_text {
+    return Intl.message(
+      'or',
+      name: 'or_text',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `continue with Google`
+  String get login_with_google {
+    return Intl.message(
+      'continue with Google',
+      name: 'login_with_google',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign up`
+  String get sign_up_text_button {
+    return Intl.message(
+      'Sign up',
+      name: 'sign_up_text_button',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `don't have an account ?`
+  String get do_not_have_account {
+    return Intl.message(
+      'don\'t have an account ?',
+      name: 'do_not_have_account',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

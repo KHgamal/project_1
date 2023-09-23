@@ -24,6 +24,15 @@
   "destination_region": "المنطقه المرسل اليها",
   "product_name": " أسم المنتج",
   "type": "النوع",
-  "send_offer": "ارسل عرض"
-
+  "send_offer": "ارسل عرض",
+  "login_title": "تسجيل دخول",
+  "login_hint": "يرجى تسجيل الدخول إلى حسابك للمتابعة.",
+  "email_label":"ادخل البريد الالكتروني او رقم الهاتف",
+  "password_label":"الرقم السري",
+  "remember_me":"تذكرنى",
+  "forget_password":"هل نسيت كلمة المرور؟",
+  "or_text":"أو",
+  "login_with_google":"المتابعة بواسطة جوجل",
+  "sign_up_text_button":"اشتراك",
+  "do_not_have_account":"ليس لديك حساب؟"
 }

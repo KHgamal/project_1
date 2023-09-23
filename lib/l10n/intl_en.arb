@@ -24,5 +24,15 @@
   "destination_region": "Destination region",
   "product_name": "Product name",
   "type": " Type ",
-  "send_offer": "Send offer"
+  "send_offer": "Send offer",
+  "login_title": "Login",
+  "login_hint": "please , login to your account to continue",
+  "email_label":"Enter Email or phone number",
+  "password_label":"password",
+  "remember_me":"Remember me",
+  "forget_password":"Did you forget your password ?",
+  "or_text":"or",
+  "login_with_google":"continue with Google",
+  "sign_up_text_button":"Sign up",
+  "do_not_have_account":"don't have an account ?"
 }
