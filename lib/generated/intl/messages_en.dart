@@ -22,14 +22,42 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "address_details":
+            MessageLookupByLibrary.simpleMessage("Address details"),
+        "apartment_number":
+            MessageLookupByLibrary.simpleMessage("Apartment number"),
+        "building_number":
+            MessageLookupByLibrary.simpleMessage("Building number"),
+        "destination_region":
+            MessageLookupByLibrary.simpleMessage("Destination region"),
+        "distinctive_mark":
+            MessageLookupByLibrary.simpleMessage("Distinctive mark"),
+        "floor_number": MessageLookupByLibrary.simpleMessage("Floor number"),
+        "humidity": MessageLookupByLibrary.simpleMessage("Humidity"),
         "navbar_main": MessageLookupByLibrary.simpleMessage("Home"),
         "navbar_offers": MessageLookupByLibrary.simpleMessage("Home"),
         "navbar_profile": MessageLookupByLibrary.simpleMessage("Home"),
+        "phone_number": MessageLookupByLibrary.simpleMessage("Phone number"),
         "product_detail_title":
-            MessageLookupByLibrary.simpleMessage("product\'s information"),
+            MessageLookupByLibrary.simpleMessage("Product\'s information"),
+        "product_name": MessageLookupByLibrary.simpleMessage("Product name"),
         "product_title":
             MessageLookupByLibrary.simpleMessage("Today\'s products "),
+        "receiver_info":
+            MessageLookupByLibrary.simpleMessage("Receiver information"),
+        "region": MessageLookupByLibrary.simpleMessage(" Region "),
+        "send_offer": MessageLookupByLibrary.simpleMessage("Send offer"),
+        "sender_info":
+            MessageLookupByLibrary.simpleMessage("Sender information"),
+        "shipping_description":
+            MessageLookupByLibrary.simpleMessage("Shipping description"),
+        "shipping_info":
+            MessageLookupByLibrary.simpleMessage("Shipping information"),
+        "shipping_type": MessageLookupByLibrary.simpleMessage("Shipping type"),
+        "temperature": MessageLookupByLibrary.simpleMessage("Temperature"),
         "title": MessageLookupByLibrary.simpleMessage("Welcome"),
-        "user_name": MessageLookupByLibrary.simpleMessage("Ahmed")
+        "type": MessageLookupByLibrary.simpleMessage(" Type "),
+        "user_name": MessageLookupByLibrary.simpleMessage("Ahmed"),
+        "weight": MessageLookupByLibrary.simpleMessage("Weight")
       };
 }

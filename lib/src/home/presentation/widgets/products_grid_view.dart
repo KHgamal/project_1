@@ -5,7 +5,6 @@ import 'package:project_1/core/res/colours.dart';
 import 'package:project_1/src/home/presentation/views/product_details_view.dart';
 import 'package:project_1/src/home/presentation/widgets/product_information_list.dart';
 
-
 class ShowProductsGridView extends StatelessWidget {
 
   final List<Product> products;
@@ -26,7 +25,7 @@ class ShowProductsGridView extends StatelessWidget {
           children: products.map((product) {
             return GestureDetector(
               onTap: (){
-                context.pushTab(const ProductView());
+                context.pushTab( ProductView(product: product,));
               },
               child: Container(
                   padding: const EdgeInsets.all(16),

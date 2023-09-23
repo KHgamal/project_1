@@ -1,7 +1,16 @@
+
 import 'package:flutter/material.dart';
 import 'package:project_1/core/common/feature/product/domain/entities/product.dart';
 import 'package:project_1/core/res/media_res.dart';
 import 'package:project_1/src/home/presentation/widgets/product_information_tile.dart';
+
+
+
+List<String> iconsList=[ Media.locationIcon ,
+  Media.destinationIcon,
+  Media.titleIcon ,
+  Media.typeIcon];
+List<String> textList=[ '' , '' , '' , ''];
 
 class ProductsInformationListView extends StatelessWidget {
 

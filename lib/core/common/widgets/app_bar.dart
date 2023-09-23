@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project_1/core/common/widgets/app_bar_action.dart';
 import 'package:project_1/core/res/colours.dart';
+import 'package:project_1/core/res/media_res.dart';
 import 'package:project_1/generated/l10n.dart';
 
 class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
@@ -57,8 +58,7 @@ class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
             ],
           ),
           AppBarAction(
-              child: const Icon(Icons.notifications_none_outlined,
-                  color: Colours.primaryColour, size: 24.0),
+              child:Image.asset(Media.notificationIcon, width: 18,height: 21,),
               onTap: () {}),
         ],
       ),

@@ -22,13 +22,36 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "address_details":
+            MessageLookupByLibrary.simpleMessage("تفاصيل العنوان"),
+        "apartment_number": MessageLookupByLibrary.simpleMessage("رقم الشقه"),
+        "building_number": MessageLookupByLibrary.simpleMessage("رقم المبني"),
+        "destination_region":
+            MessageLookupByLibrary.simpleMessage("المنطقه المرسل اليها"),
+        "distinctive_mark": MessageLookupByLibrary.simpleMessage("علامه مميزه"),
+        "floor_number": MessageLookupByLibrary.simpleMessage("رقم الدور"),
+        "humidity": MessageLookupByLibrary.simpleMessage("الرطوبه"),
         "navbar_main": MessageLookupByLibrary.simpleMessage("الرئيسيه"),
         "navbar_offers": MessageLookupByLibrary.simpleMessage("العروض"),
         "navbar_profile": MessageLookupByLibrary.simpleMessage("حسابى"),
+        "phone_number": MessageLookupByLibrary.simpleMessage("رقم الهاتف"),
         "product_detail_title":
             MessageLookupByLibrary.simpleMessage("معلومات المنتج"),
+        "product_name": MessageLookupByLibrary.simpleMessage(" أسم المنتج"),
         "product_title": MessageLookupByLibrary.simpleMessage("منتجات اليوم"),
+        "receiver_info":
+            MessageLookupByLibrary.simpleMessage("معلومات المرسل إليه"),
+        "region": MessageLookupByLibrary.simpleMessage("المنطقه"),
+        "send_offer": MessageLookupByLibrary.simpleMessage("ارسل عرض"),
+        "sender_info": MessageLookupByLibrary.simpleMessage("معلومات المرسل"),
+        "shipping_description":
+            MessageLookupByLibrary.simpleMessage("وصف الشحنه"),
+        "shipping_info": MessageLookupByLibrary.simpleMessage("معلومات الشحنه"),
+        "shipping_type": MessageLookupByLibrary.simpleMessage("نوع الشحنه"),
+        "temperature": MessageLookupByLibrary.simpleMessage("الحراره"),
         "title": MessageLookupByLibrary.simpleMessage("مرحبا بك "),
-        "user_name": MessageLookupByLibrary.simpleMessage("احمد")
+        "type": MessageLookupByLibrary.simpleMessage("النوع"),
+        "user_name": MessageLookupByLibrary.simpleMessage("احمد"),
+        "weight": MessageLookupByLibrary.simpleMessage("الوزن")
       };
 }

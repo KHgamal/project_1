@@ -27,6 +27,7 @@ dependencies:
   provider: ^6.0.5
   http: ^1.1.0
   uuid: ^4.0.0
+  js: ^0.6.2
 
 
 dev_dependencies:

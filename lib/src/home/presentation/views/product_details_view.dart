@@ -1,29 +1,44 @@
 import 'package:flutter/material.dart';
-import '../widgets/product_information_appbar.dart';
-import '../widgets/sender_receiver_information_container.dart';
+import 'package:project_1/core/common/feature/product/domain/entities/product.dart';
+import 'package:project_1/src/home/presentation/widgets/product_information_appbar.dart';
+import 'package:project_1/src/home/presentation/widgets/sender_receiver_information_container.dart';
+import 'package:project_1/src/home/presentation/widgets/shipping_information_container.dart';
+import 'package:project_1/src/home/presentation/widgets/default_button.dart';
+import 'package:project_1/generated/l10n.dart';
+
 class ProductView extends StatelessWidget {
-  const ProductView({Key? key}) : super(key: key);
+  const ProductView({required this.product,Key? key}) : super(key: key);
   static const route = '/product_details';
+  final Product product;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.white,
-        body: ListView(
-          children:const [
-            Padding(
-              padding: EdgeInsets.only(top: 15 , right: 16 , left: 16),
-              child: ProductInformationAppbar(),
+        body: Column(
+          children: [
+            Expanded(
+              child: ListView(
+                scrollDirection: Axis.vertical,
+                shrinkWrap: true,
+                children: [
+                  const Padding(
+                    padding: EdgeInsets.only(top: 15, right: 16, left: 16),
+                    child: ProductInformationAppbar(),
+                  ),
+                  SenderReceiverInformationContainer(
+                    title: S.of(context).sender_info,
+                      locationDetails: product.senderLocationDetails),
+                  SenderReceiverInformationContainer(
+                      title: S.of(context).receiver_info,
+                      locationDetails: product.receiverLocationDetails),
+                  ShippingInformationContainer(
+                      title: S.of(context).shipping_info,
+                      product: product),
+                ],
+              ),
             ),
-            SenderReceiverInformationContainer(
-                title: "معلومات المرسل ", locationText: "اسم المنطقة",
-                addressInDetail: "العنوان بالتفصيل", buildingNumber: "xx",
-                floorNumber:"xx" , apartmentNumber:"xx",
-                markDetails: "تفاصيل العلامة", phoneNumber: "xxx xxxx xxx"),
-            SenderReceiverInformationContainer(
-                title: "معلومات المرسل اليه ", locationText: "اسم المنطقة",
-                addressInDetail: "العنوان بالتفصيل", buildingNumber: "xx",
-                floorNumber:"xx" , apartmentNumber:"xx",
-                markDetails: "تفاصيل العلامة", phoneNumber: "xxx xxxx xxx"),
+            MyButton(title: S.of(context).send_offer, onPressed: () {}),
           ],
         ),
     );
