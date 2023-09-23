@@ -24,6 +24,18 @@
   "destination_region": "المنطقه المرسل اليها",
   "product_name": " أسم المنتج",
   "type": "النوع",
-  "send_offer": "ارسل عرض"
+  "send_offer": "ارسل عرض",
+  "create_account": "إنشاء حساب",
+  "fill_form": "يرجى ملء النموذج",
+  "full_name": "ادخل الاسم",
+  "ahmed_al_anizi": "أحمد العنيزي",
+  "enter_phone_number": "ادخل رقم الهاتف",
+  "phone_number_example": "504X XXX XXX",
+  "enter_email": "ادخل البريد الإلكتروني",
+  "email_example": "example@mail.com",
+  "create_password": "انشئ كلمة المرور",
+  "agree_terms": "أوافق على الشروط والأحكام",
+  "save_complete": "حفظ واستكمال الحساب"
+
 
 }

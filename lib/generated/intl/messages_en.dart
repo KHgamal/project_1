@@ -24,20 +24,39 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "address_details":
             MessageLookupByLibrary.simpleMessage("Address details"),
+        "agree_terms": MessageLookupByLibrary.simpleMessage(
+            "I agree to the terms and conditions"),
+        "ahmed_al_anizi":
+            MessageLookupByLibrary.simpleMessage("Ahmed Al-Anizi"),
         "apartment_number":
             MessageLookupByLibrary.simpleMessage("Apartment number"),
         "building_number":
             MessageLookupByLibrary.simpleMessage("Building number"),
+        "create_account":
+            MessageLookupByLibrary.simpleMessage("Create Account"),
+        "create_password":
+            MessageLookupByLibrary.simpleMessage("Create your password"),
         "destination_region":
             MessageLookupByLibrary.simpleMessage("Destination region"),
         "distinctive_mark":
             MessageLookupByLibrary.simpleMessage("Distinctive mark"),
+        "email_example":
+            MessageLookupByLibrary.simpleMessage("example@mail.com"),
+        "enter_email": MessageLookupByLibrary.simpleMessage("Enter your email"),
+        "enter_phone_number":
+            MessageLookupByLibrary.simpleMessage("Enter your phone number"),
+        "fill_form":
+            MessageLookupByLibrary.simpleMessage("Please fill out the form"),
         "floor_number": MessageLookupByLibrary.simpleMessage("Floor number"),
+        "full_name":
+            MessageLookupByLibrary.simpleMessage("Enter your full name"),
         "humidity": MessageLookupByLibrary.simpleMessage("Humidity"),
         "navbar_main": MessageLookupByLibrary.simpleMessage("Home"),
         "navbar_offers": MessageLookupByLibrary.simpleMessage("Home"),
         "navbar_profile": MessageLookupByLibrary.simpleMessage("Home"),
         "phone_number": MessageLookupByLibrary.simpleMessage("Phone number"),
+        "phone_number_example":
+            MessageLookupByLibrary.simpleMessage("504X XXX XXX"),
         "product_detail_title":
             MessageLookupByLibrary.simpleMessage("Product\'s information"),
         "product_name": MessageLookupByLibrary.simpleMessage("Product name"),
@@ -46,6 +65,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "receiver_info":
             MessageLookupByLibrary.simpleMessage("Receiver information"),
         "region": MessageLookupByLibrary.simpleMessage(" Region "),
+        "save_complete": MessageLookupByLibrary.simpleMessage(
+            "Save and complete your account creation"),
         "send_offer": MessageLookupByLibrary.simpleMessage("Send offer"),
         "sender_info":
             MessageLookupByLibrary.simpleMessage("Sender information"),
