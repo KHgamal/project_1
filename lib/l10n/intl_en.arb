@@ -25,6 +25,20 @@
   "product_name": "Product name",
   "type": " Type ",
   "send_offer": "Send offer",
+  "create_account": "Create Account",
+  "fill_form": "Please fill out the form",
+  "full_name": "Enter your full name",
+  "name_example": "Ahmed Al-Anizi",
+  "enter_phone_number": "Enter your phone number",
+  "phone_number_example": "504X XXX XXX",
+  "enter_email": "Enter your email",
+  "email_example": "example@mail.com",
+  "create_password": "Create your password",
+  "confirm_password": "Confirm your password",
+  "agree_terms": "I agree to the terms and conditions",
+  "save_complete": "Save and complete your account creation"
+}
+
   "login_title": "Login",
   "login_hint": "please , login to your account to continue",
   "email_label":"Enter Email or phone number",
