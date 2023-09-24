@@ -29,11 +29,21 @@ class MessageLookup extends MessageLookupByLibrary {
         "destination_region":
             MessageLookupByLibrary.simpleMessage("المنطقه المرسل اليها"),
         "distinctive_mark": MessageLookupByLibrary.simpleMessage("علامه مميزه"),
+        "do_not_have_account":
+            MessageLookupByLibrary.simpleMessage("ليس لديك حساب؟"),
+        "email_label": MessageLookupByLibrary.simpleMessage(
+            "ادخل البريد الالكتروني او رقم الهاتف"),
         "floor_number": MessageLookupByLibrary.simpleMessage("رقم الدور"),
+        "forget_password":
+            MessageLookupByLibrary.simpleMessage("هل نسيت كلمة المرور؟"),
         "humidity": MessageLookupByLibrary.simpleMessage("الرطوبه"),
+        "login_hint": MessageLookupByLibrary.simpleMessage(
+            "يرجى تسجيل الدخول إلى حسابك للمتابعة."),
+        "login_title": MessageLookupByLibrary.simpleMessage("تسجيل دخول"),
         "navbar_main": MessageLookupByLibrary.simpleMessage("الرئيسيه"),
         "navbar_offers": MessageLookupByLibrary.simpleMessage("العروض"),
         "navbar_profile": MessageLookupByLibrary.simpleMessage("حسابى"),
+        "password_label": MessageLookupByLibrary.simpleMessage("الرقم السري"),
         "phone_number": MessageLookupByLibrary.simpleMessage("رقم الهاتف"),
         "product_detail_title":
             MessageLookupByLibrary.simpleMessage("معلومات المنتج"),
@@ -42,12 +52,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "receiver_info":
             MessageLookupByLibrary.simpleMessage("معلومات المرسل إليه"),
         "region": MessageLookupByLibrary.simpleMessage("المنطقه"),
+        "remember_me": MessageLookupByLibrary.simpleMessage("تذكرنى"),
         "send_offer": MessageLookupByLibrary.simpleMessage("ارسل عرض"),
         "sender_info": MessageLookupByLibrary.simpleMessage("معلومات المرسل"),
         "shipping_description":
             MessageLookupByLibrary.simpleMessage("وصف الشحنه"),
         "shipping_info": MessageLookupByLibrary.simpleMessage("معلومات الشحنه"),
         "shipping_type": MessageLookupByLibrary.simpleMessage("نوع الشحنه"),
+        "sign_up_text_button": MessageLookupByLibrary.simpleMessage("اشتراك"),
         "temperature": MessageLookupByLibrary.simpleMessage("الحراره"),
         "title": MessageLookupByLibrary.simpleMessage("مرحبا بك "),
         "type": MessageLookupByLibrary.simpleMessage("النوع"),
