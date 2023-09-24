@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:project_1/core/res/colours.dart';
 import 'package:project_1/core/res/fonts.dart';
 abstract class Styles{
+  static const textStyle12=TextStyle(
+      fontSize: 12 , fontWeight: FontWeight.w500 , color: Colours.txtDetailedColor,
+      fontFamily: Fonts.cairo
+  );
   static const textStyle14=TextStyle(
       fontSize: 14 , fontWeight: FontWeight.w400 , color: Colours.txtMainColor,
     fontFamily: Fonts.cairo
@@ -29,4 +33,12 @@ abstract class Styles{
   );
 
 
+  static const textStyle24=TextStyle(
+      fontSize: 24 , fontWeight: FontWeight.w700 ,
+      fontFamily: Fonts.cairo
+  );
+  static const textFieldLabel=TextStyle(
+      fontSize:18 , fontWeight: FontWeight.w500 , color: Colours.primaryColour,
+      fontFamily: Fonts.cairo
+  );
 }

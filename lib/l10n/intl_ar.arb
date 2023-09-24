@@ -38,5 +38,12 @@
   "agree_terms": "أوافق على تطبيق الشروط والأحكام",
   "save_complete": "احفظ واكمل إنشاء حسابك"
 
-
+  "login_title": "تسجيل دخول",
+  "login_hint": "يرجى تسجيل الدخول إلى حسابك للمتابعة.",
+  "email_label":"ادخل البريد الالكتروني او رقم الهاتف",
+  "password_label":"الرقم السري",
+  "remember_me":"تذكرنى",
+  "forget_password":"هل نسيت كلمة المرور؟",
+  "sign_up_text_button":"اشتراك",
+  "do_not_have_account":"ليس لديك حساب؟"
 }

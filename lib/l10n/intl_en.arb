@@ -38,3 +38,13 @@
   "agree_terms": "I agree to the terms and conditions",
   "save_complete": "Save and complete your account creation"
 }
+
+  "login_title": "Login",
+  "login_hint": "please , login to your account to continue",
+  "email_label":"Enter Email or phone number",
+  "password_label":"password",
+  "remember_me":"Remember me",
+  "forget_password":"Did you forget your password ?",
+  "sign_up_text_button":"Sign up",
+  "do_not_have_account":"don't have an account ?"
+}

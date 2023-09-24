@@ -52,9 +52,22 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Enter your full name"),
         "humidity": MessageLookupByLibrary.simpleMessage("Humidity"),
         "name_example": MessageLookupByLibrary.simpleMessage("Ahmed Al-Anizi"),
+
+        "do_not_have_account":
+            MessageLookupByLibrary.simpleMessage("don\'t have an account ?"),
+        "email_label":
+            MessageLookupByLibrary.simpleMessage("Enter Email or phone number"),
+        "floor_number": MessageLookupByLibrary.simpleMessage("Floor number"),
+        "forget_password": MessageLookupByLibrary.simpleMessage(
+            "Did you forget your password ?"),
+        "humidity": MessageLookupByLibrary.simpleMessage("Humidity"),
+        "login_hint": MessageLookupByLibrary.simpleMessage(
+            "please , login to your account to continue"),
+        "login_title": MessageLookupByLibrary.simpleMessage("Login"),
         "navbar_main": MessageLookupByLibrary.simpleMessage("Home"),
         "navbar_offers": MessageLookupByLibrary.simpleMessage("Home"),
         "navbar_profile": MessageLookupByLibrary.simpleMessage("Home"),
+        "password_label": MessageLookupByLibrary.simpleMessage("password"),
         "phone_number": MessageLookupByLibrary.simpleMessage("Phone number"),
         "phone_number_example":
             MessageLookupByLibrary.simpleMessage("504X XXX XXX"),
@@ -68,6 +81,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "region": MessageLookupByLibrary.simpleMessage(" Region "),
         "save_complete": MessageLookupByLibrary.simpleMessage(
             "Save and complete your account creation"),
+
+        "remember_me": MessageLookupByLibrary.simpleMessage("Remember me"),
         "send_offer": MessageLookupByLibrary.simpleMessage("Send offer"),
         "sender_info":
             MessageLookupByLibrary.simpleMessage("Sender information"),
@@ -76,6 +91,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "shipping_info":
             MessageLookupByLibrary.simpleMessage("Shipping information"),
         "shipping_type": MessageLookupByLibrary.simpleMessage("Shipping type"),
+        "sign_up_text_button": MessageLookupByLibrary.simpleMessage("Sign up"),
         "temperature": MessageLookupByLibrary.simpleMessage("Temperature"),
         "title": MessageLookupByLibrary.simpleMessage("Welcome"),
         "type": MessageLookupByLibrary.simpleMessage(" Type "),
