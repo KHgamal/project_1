@@ -2,7 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:project_1/core/res/styles.dart';
 
-import '../../../../../res/colours.dart';
+import '../../../../core/res/colours.dart';
+
 class DefaultFormField extends StatefulWidget {
   final TextEditingController controller;
   final String label;
