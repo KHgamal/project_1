@@ -129,7 +129,7 @@ class SignUpScreen extends StatelessWidget {
                       ),
                       DefaultFormField(
                         controller: _passwordController,
-                        label: S.of(context).create_password,
+                        label: "●●●●●●●●",
                         validate: (value) {
                           return null;
                         },
@@ -144,7 +144,7 @@ class SignUpScreen extends StatelessWidget {
                       ),
                       DefaultFormField(
                         controller: _confirmPasswordController,
-                        label: S.of(context).create_password,
+                        label: "●●●●●●●●",
                         validate: (value) {
                           return null;
                         },
