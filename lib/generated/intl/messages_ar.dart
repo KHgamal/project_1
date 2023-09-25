@@ -36,8 +36,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "destination_region":
             MessageLookupByLibrary.simpleMessage("المنطقه المرسل اليها"),
         "distinctive_mark": MessageLookupByLibrary.simpleMessage("علامه مميزه"),
+        "do_not_have_account":
+            MessageLookupByLibrary.simpleMessage("ليس لديك حساب؟"),
         "email_example":
             MessageLookupByLibrary.simpleMessage("example@mail.com"),
+        "email_label": MessageLookupByLibrary.simpleMessage(
+            "ادخل البريد الالكتروني او رقم الهاتف"),
         "enter_email":
             MessageLookupByLibrary.simpleMessage("ادخل بريدك الالكتروني"),
         "enter_phone_number":
@@ -45,20 +49,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "fill_form": MessageLookupByLibrary.simpleMessage(
             "يرجى ملء النموذج التالي لإنشاء حسابك"),
         "floor_number": MessageLookupByLibrary.simpleMessage("رقم الدور"),
-        "full_name": MessageLookupByLibrary.simpleMessage("ادخل الاسم بالكامل"),
-        "humidity": MessageLookupByLibrary.simpleMessage("الرطوبه"),
-        "name_example": MessageLookupByLibrary.simpleMessage("أحمد العنيزي"),
-        "do_not_have_account":
-            MessageLookupByLibrary.simpleMessage("ليس لديك حساب؟"),
-        "email_label": MessageLookupByLibrary.simpleMessage(
-            "ادخل البريد الالكتروني او رقم الهاتف"),
-        "floor_number": MessageLookupByLibrary.simpleMessage("رقم الدور"),
         "forget_password":
             MessageLookupByLibrary.simpleMessage("هل نسيت كلمة المرور؟"),
+        "full_name": MessageLookupByLibrary.simpleMessage("ادخل الاسم بالكامل"),
         "humidity": MessageLookupByLibrary.simpleMessage("الرطوبه"),
         "login_hint": MessageLookupByLibrary.simpleMessage(
             "يرجى تسجيل الدخول إلى حسابك للمتابعة."),
         "login_title": MessageLookupByLibrary.simpleMessage("تسجيل دخول"),
+        "name_example": MessageLookupByLibrary.simpleMessage("أحمد العنيزي"),
         "navbar_main": MessageLookupByLibrary.simpleMessage("الرئيسيه"),
         "navbar_offers": MessageLookupByLibrary.simpleMessage("العروض"),
         "navbar_profile": MessageLookupByLibrary.simpleMessage("حسابى"),
@@ -73,10 +71,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "receiver_info":
             MessageLookupByLibrary.simpleMessage("معلومات المرسل إليه"),
         "region": MessageLookupByLibrary.simpleMessage("المنطقه"),
+        "remember_me": MessageLookupByLibrary.simpleMessage("تذكرنى"),
         "save_complete":
             MessageLookupByLibrary.simpleMessage("احفظ واكمل إنشاء حسابك"),
-
-        "remember_me": MessageLookupByLibrary.simpleMessage("تذكرنى"),
         "send_offer": MessageLookupByLibrary.simpleMessage("ارسل عرض"),
         "sender_info": MessageLookupByLibrary.simpleMessage("معلومات المرسل"),
         "shipping_description":

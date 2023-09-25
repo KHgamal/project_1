@@ -1,24 +1,21 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-import '../../../../../../generated/l10n.dart';
+import '../../../../generated/l10n.dart';
 
 class TermsAndConditionsCheckbox extends StatefulWidget {
   final bool isChecked;
   final ValueChanged<bool> onChanged;
 
-  const TermsAndConditionsCheckbox({
+  const TermsAndConditionsCheckbox({super.key,
     required this.isChecked,
     required this.onChanged,
-  })  : assert(isChecked != null),
-        assert(onChanged != null);
+  });
 
   @override
-  _TermsAndConditionsCheckboxState createState() =>
-      _TermsAndConditionsCheckboxState();
+  TermsAndConditionsCheckboxState createState() =>
+      TermsAndConditionsCheckboxState();
 }
 
-class _TermsAndConditionsCheckboxState extends State<TermsAndConditionsCheckbox> {
+class TermsAndConditionsCheckboxState extends State<TermsAndConditionsCheckbox> {
   bool _isChecked = false;
 
   @override

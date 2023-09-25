@@ -3,10 +3,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 import 'package:project_1/core/res/styles.dart';
 
-import '../../../../../../generated/l10n.dart';
-import '../../../../../res/colours.dart';
-import '../../../../../res/fonts.dart';
-import '../../../../../res/media_res.dart';
+import '../../../../generated/l10n.dart';
+import '../../../../core/res/colours.dart';
+import '../../../../core/res/fonts.dart';
+import '../../../../core/res/media_res.dart';
 import '../widgets/check_box.dart';
 import '../widgets/default_form_field.dart';
 

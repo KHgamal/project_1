@@ -1,7 +1,7 @@
 import 'package:project_1/core/usecase/usecase.dart';
 import 'package:project_1/core/utils/typedefs.dart';
-import 'package:project_1/src/features/auth/domain/entities/driver_entity.dart';
-import 'package:project_1/src/features/auth/domain/repository/auth_repo.dart';
+import 'package:project_1/src/authentication/domain/entities/driver_entity.dart';
+import 'package:project_1/src/authentication/domain/repository/auth_repo.dart';
 
 class SignInUseCase
     extends UseCaseWithParams<DriverEntity, SignInUseCaseParams> {
@@ -9,7 +9,7 @@ class SignInUseCase
   SignInUseCase(this._authRepository);
   @override
   ResultFuture<DriverEntity> call(SignInUseCaseParams p) async {
-    return await _authRepository.signIn();
+    return await _authRepository.signIn(p.email,p.password);
   }
 }
 
