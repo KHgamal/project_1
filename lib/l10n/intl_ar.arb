@@ -36,7 +36,7 @@
   "create_password": "انشئ رقمك السري",
   "confirm_password": "تأكيد الرقم السري",
   "agree_terms": "أوافق على تطبيق الشروط والأحكام",
-  "save_complete": "احفظ واكمل إنشاء حسابك"
+  "save_complete": "احفظ واكمل إنشاء حسابك",
 
   "login_title": "تسجيل دخول",
   "login_hint": "يرجى تسجيل الدخول إلى حسابك للمتابعة.",
@@ -45,5 +45,7 @@
   "remember_me":"تذكرنى",
   "forget_password":"هل نسيت كلمة المرور؟",
   "sign_up_text_button":"اشتراك",
-  "do_not_have_account":"ليس لديك حساب؟"
+  "or":"أو",
+  "do_not_have_account":"ليس لديك حساب؟",
+  "hi":"هلا!  \uD83D\uDC4B"
 }

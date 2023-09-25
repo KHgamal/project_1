@@ -36,8 +36,7 @@
   "create_password": "Create your password",
   "confirm_password": "Confirm your password",
   "agree_terms": "I agree to the terms and conditions",
-  "save_complete": "Save and complete your account creation"
-}
+  "save_complete": "Save and complete your account creation",
 
   "login_title": "Login",
   "login_hint": "please , login to your account to continue",
@@ -46,5 +45,7 @@
   "remember_me":"Remember me",
   "forget_password":"Did you forget your password ?",
   "sign_up_text_button":"Sign up",
-  "do_not_have_account":"don't have an account ?"
+  "do_not_have_account":"don't have an account ?",
+  "hi":"HI!  \uD83D\uDC4B",
+  "or":"Or"
 }

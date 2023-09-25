@@ -310,6 +310,126 @@ class S {
     );
   }
 
+  /// `Create Account`
+  String get create_account {
+    return Intl.message(
+      'Create Account',
+      name: 'create_account',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please fill out the form`
+  String get fill_form {
+    return Intl.message(
+      'Please fill out the form',
+      name: 'fill_form',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your full name`
+  String get full_name {
+    return Intl.message(
+      'Enter your full name',
+      name: 'full_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ahmed Al-Anizi`
+  String get name_example {
+    return Intl.message(
+      'Ahmed Al-Anizi',
+      name: 'name_example',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your phone number`
+  String get enter_phone_number {
+    return Intl.message(
+      'Enter your phone number',
+      name: 'enter_phone_number',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `504X XXX XXX`
+  String get phone_number_example {
+    return Intl.message(
+      '504X XXX XXX',
+      name: 'phone_number_example',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your email`
+  String get enter_email {
+    return Intl.message(
+      'Enter your email',
+      name: 'enter_email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `example@mail.com`
+  String get email_example {
+    return Intl.message(
+      'example@mail.com',
+      name: 'email_example',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create your password`
+  String get create_password {
+    return Intl.message(
+      'Create your password',
+      name: 'create_password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirm your password`
+  String get confirm_password {
+    return Intl.message(
+      'Confirm your password',
+      name: 'confirm_password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `I agree to the terms and conditions`
+  String get agree_terms {
+    return Intl.message(
+      'I agree to the terms and conditions',
+      name: 'agree_terms',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Save and complete your account creation`
+  String get save_complete {
+    return Intl.message(
+      'Save and complete your account creation',
+      name: 'save_complete',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Login`
   String get login_title {
     return Intl.message(
@@ -385,6 +505,26 @@ class S {
     return Intl.message(
       'don\'t have an account ?',
       name: 'do_not_have_account',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `HI!  👋`
+  String get hi {
+    return Intl.message(
+      'HI!  👋',
+      name: 'hi',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Or`
+  String get or {
+    return Intl.message(
+      'Or',
+      name: 'or',
       desc: '',
       args: [],
     );

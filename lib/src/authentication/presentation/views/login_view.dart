@@ -64,7 +64,11 @@ class LoginView extends StatelessWidget {
                   ],
                 ),
                 const SizedBox(height: 8,),
-                MyButton(title: S.of(context).login_title, onPressed: (){}),
+                MyButton(title: S.of(context).login_title,
+                  onPressed: (){},
+                  textColor: Colors.white,
+                  buttonColor: Colours.primaryColour,
+                ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [

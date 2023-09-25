@@ -40,33 +40,32 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Destination region"),
         "distinctive_mark":
             MessageLookupByLibrary.simpleMessage("Distinctive mark"),
+        "do_not_have_account":
+            MessageLookupByLibrary.simpleMessage("don\'t have an account ?"),
         "email_example":
             MessageLookupByLibrary.simpleMessage("example@mail.com"),
+        "email_label":
+            MessageLookupByLibrary.simpleMessage("Enter Email or phone number"),
         "enter_email": MessageLookupByLibrary.simpleMessage("Enter your email"),
         "enter_phone_number":
             MessageLookupByLibrary.simpleMessage("Enter your phone number"),
         "fill_form":
             MessageLookupByLibrary.simpleMessage("Please fill out the form"),
         "floor_number": MessageLookupByLibrary.simpleMessage("Floor number"),
-        "full_name":
-            MessageLookupByLibrary.simpleMessage("Enter your full name"),
-        "humidity": MessageLookupByLibrary.simpleMessage("Humidity"),
-        "name_example": MessageLookupByLibrary.simpleMessage("Ahmed Al-Anizi"),
-
-        "do_not_have_account":
-            MessageLookupByLibrary.simpleMessage("don\'t have an account ?"),
-        "email_label":
-            MessageLookupByLibrary.simpleMessage("Enter Email or phone number"),
-        "floor_number": MessageLookupByLibrary.simpleMessage("Floor number"),
         "forget_password": MessageLookupByLibrary.simpleMessage(
             "Did you forget your password ?"),
+        "full_name":
+            MessageLookupByLibrary.simpleMessage("Enter your full name"),
+        "hi": MessageLookupByLibrary.simpleMessage("HI!  👋"),
         "humidity": MessageLookupByLibrary.simpleMessage("Humidity"),
         "login_hint": MessageLookupByLibrary.simpleMessage(
             "please , login to your account to continue"),
         "login_title": MessageLookupByLibrary.simpleMessage("Login"),
+        "name_example": MessageLookupByLibrary.simpleMessage("Ahmed Al-Anizi"),
         "navbar_main": MessageLookupByLibrary.simpleMessage("Home"),
         "navbar_offers": MessageLookupByLibrary.simpleMessage("Home"),
         "navbar_profile": MessageLookupByLibrary.simpleMessage("Home"),
+        "or": MessageLookupByLibrary.simpleMessage("Or"),
         "password_label": MessageLookupByLibrary.simpleMessage("password"),
         "phone_number": MessageLookupByLibrary.simpleMessage("Phone number"),
         "phone_number_example":
@@ -79,10 +78,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "receiver_info":
             MessageLookupByLibrary.simpleMessage("Receiver information"),
         "region": MessageLookupByLibrary.simpleMessage(" Region "),
+        "remember_me": MessageLookupByLibrary.simpleMessage("Remember me"),
         "save_complete": MessageLookupByLibrary.simpleMessage(
             "Save and complete your account creation"),
-
-        "remember_me": MessageLookupByLibrary.simpleMessage("Remember me"),
         "send_offer": MessageLookupByLibrary.simpleMessage("Send offer"),
         "sender_info":
             MessageLookupByLibrary.simpleMessage("Sender information"),
