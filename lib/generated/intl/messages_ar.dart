@@ -52,6 +52,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "forget_password":
             MessageLookupByLibrary.simpleMessage("هل نسيت كلمة المرور؟"),
         "full_name": MessageLookupByLibrary.simpleMessage("ادخل الاسم بالكامل"),
+        "hi": MessageLookupByLibrary.simpleMessage("هلا!  👋"),
         "humidity": MessageLookupByLibrary.simpleMessage("الرطوبه"),
         "login_hint": MessageLookupByLibrary.simpleMessage(
             "يرجى تسجيل الدخول إلى حسابك للمتابعة."),
@@ -60,6 +61,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "navbar_main": MessageLookupByLibrary.simpleMessage("الرئيسيه"),
         "navbar_offers": MessageLookupByLibrary.simpleMessage("العروض"),
         "navbar_profile": MessageLookupByLibrary.simpleMessage("حسابى"),
+        "or": MessageLookupByLibrary.simpleMessage("أو"),
         "password_label": MessageLookupByLibrary.simpleMessage("الرقم السري"),
         "phone_number": MessageLookupByLibrary.simpleMessage("رقم الهاتف"),
         "phone_number_example":

@@ -509,6 +509,26 @@ class S {
       args: [],
     );
   }
+
+  /// `HI!  👋`
+  String get hi {
+    return Intl.message(
+      'HI!  👋',
+      name: 'hi',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Or`
+  String get or {
+    return Intl.message(
+      'Or',
+      name: 'or',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

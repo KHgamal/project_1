@@ -37,6 +37,10 @@ abstract class Styles{
       fontSize: 24 , fontWeight: FontWeight.w700 ,
       fontFamily: Fonts.cairo
   );
+  static const textStyle40=TextStyle(
+      fontSize: 35 , fontWeight: FontWeight.w700 ,
+      fontFamily: Fonts.cairo
+  );
   static const textFieldLabel=TextStyle(
       fontSize:18 , fontWeight: FontWeight.w500 , color: Colours.primaryColour,
       fontFamily: Fonts.cairo

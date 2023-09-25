@@ -45,5 +45,7 @@
   "remember_me":"Remember me",
   "forget_password":"Did you forget your password ?",
   "sign_up_text_button":"Sign up",
-  "do_not_have_account":"don't have an account ?"
+  "do_not_have_account":"don't have an account ?",
+  "hi":"HI!  \uD83D\uDC4B",
+  "or":"Or"
 }

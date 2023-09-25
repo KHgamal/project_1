@@ -45,5 +45,7 @@
   "remember_me":"تذكرنى",
   "forget_password":"هل نسيت كلمة المرور؟",
   "sign_up_text_button":"اشتراك",
-  "do_not_have_account":"ليس لديك حساب؟"
+  "or":"أو",
+  "do_not_have_account":"ليس لديك حساب؟",
+  "hi":"هلا!  \uD83D\uDC4B"
 }

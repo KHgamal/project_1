@@ -56,6 +56,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Did you forget your password ?"),
         "full_name":
             MessageLookupByLibrary.simpleMessage("Enter your full name"),
+        "hi": MessageLookupByLibrary.simpleMessage("HI!  👋"),
         "humidity": MessageLookupByLibrary.simpleMessage("Humidity"),
         "login_hint": MessageLookupByLibrary.simpleMessage(
             "please , login to your account to continue"),
@@ -64,6 +65,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "navbar_main": MessageLookupByLibrary.simpleMessage("Home"),
         "navbar_offers": MessageLookupByLibrary.simpleMessage("Home"),
         "navbar_profile": MessageLookupByLibrary.simpleMessage("Home"),
+        "or": MessageLookupByLibrary.simpleMessage("Or"),
         "password_label": MessageLookupByLibrary.simpleMessage("password"),
         "phone_number": MessageLookupByLibrary.simpleMessage("Phone number"),
         "phone_number_example":
