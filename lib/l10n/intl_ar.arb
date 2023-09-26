@@ -44,5 +44,21 @@
   "remember_me":"تذكرنى",
   "forget_password":"هل نسيت كلمة المرور؟",
   "sign_up_text_button":"اشتراك",
-  "do_not_have_account":"ليس لديك حساب؟"
+  "or":"أو",
+  "do_not_have_account":"ليس لديك حساب؟",
+  "error_creating_account":"هذه الخانة مطلوبة",
+  "error_number_length":"برجاء إدخال رقم صحيح",
+  "error_password_match":"برجاء التأكد من انه يطابق رقمك السري",
+  "error_name_length":"لا يجب أن يقل عن أربع حروف",
+  "error_password_length":"لا يجب أن يقل عن ستة أحرف",
+  "error_terms_accept":"يجب الموافقة علي الشروط و الأحكام للمتابعة",
+  "signup_title_page2":"رفع المستندات الاثباتية",
+  "signup_subtitle1_page2":"١. قم برفع أي أثبات شخصية (الهوية)",
+  "signup_imageUpload_page2":"(يتم دعم ملف \u200E.jpg فقط)",
+  "signup_imageUploadText1_page2":"أختر ملفآ لتحميل الجهة",
+  "signup_subtitle2_page2":"٢. ان كنت وافد، برجاء رفع بطاقة الإقامة",
+  "signup_subtitle3_page2":"٣. قم برفع رخصة القيادة (سارية)",
+  "signup_imageUploadText2_page2":"اختر ملفًا لتحميل رخصتك.",
+
+  "hi":"هلا!  \uD83D\uDC4B"
 }

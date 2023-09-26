@@ -46,12 +46,25 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("ادخل بريدك الالكتروني"),
         "enter_phone_number":
             MessageLookupByLibrary.simpleMessage("ادخل رقم الهاتف"),
+        "error_creating_account":
+            MessageLookupByLibrary.simpleMessage("هذه الخانة مطلوبة"),
+        "error_name_length":
+            MessageLookupByLibrary.simpleMessage("لا يجب أن يقل عن أربع حروف"),
+        "error_number_length":
+            MessageLookupByLibrary.simpleMessage("برجاء إدخال رقم صحيح"),
+        "error_password_length":
+            MessageLookupByLibrary.simpleMessage("لا يجب أن يقل عن ستة أحرف"),
+        "error_password_match": MessageLookupByLibrary.simpleMessage(
+            "برجاء التأكد من انه يطابق رقمك السري"),
+        "error_terms_accept": MessageLookupByLibrary.simpleMessage(
+            "يجب الموافقة علي الشروط و الأحكام للمتابعة"),
         "fill_form": MessageLookupByLibrary.simpleMessage(
             "يرجى ملء النموذج التالي لإنشاء حسابك"),
         "floor_number": MessageLookupByLibrary.simpleMessage("رقم الدور"),
         "forget_password":
             MessageLookupByLibrary.simpleMessage("هل نسيت كلمة المرور؟"),
         "full_name": MessageLookupByLibrary.simpleMessage("ادخل الاسم بالكامل"),
+        "hi": MessageLookupByLibrary.simpleMessage("هلا!  👋"),
         "humidity": MessageLookupByLibrary.simpleMessage("الرطوبه"),
         "login_hint": MessageLookupByLibrary.simpleMessage(
             "يرجى تسجيل الدخول إلى حسابك للمتابعة."),
@@ -60,6 +73,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "navbar_main": MessageLookupByLibrary.simpleMessage("الرئيسيه"),
         "navbar_offers": MessageLookupByLibrary.simpleMessage("العروض"),
         "navbar_profile": MessageLookupByLibrary.simpleMessage("حسابى"),
+        "or": MessageLookupByLibrary.simpleMessage("أو"),
         "password_label": MessageLookupByLibrary.simpleMessage("الرقم السري"),
         "phone_number": MessageLookupByLibrary.simpleMessage("رقم الهاتف"),
         "phone_number_example":
@@ -81,6 +95,20 @@ class MessageLookup extends MessageLookupByLibrary {
         "shipping_info": MessageLookupByLibrary.simpleMessage("معلومات الشحنه"),
         "shipping_type": MessageLookupByLibrary.simpleMessage("نوع الشحنه"),
         "sign_up_text_button": MessageLookupByLibrary.simpleMessage("اشتراك"),
+        "signup_imageUploadText1_page2":
+            MessageLookupByLibrary.simpleMessage("أختر ملفآ لتحميل الجهة"),
+        "signup_imageUploadText2_page2":
+            MessageLookupByLibrary.simpleMessage("اختر ملفًا لتحميل رخصتك."),
+        "signup_imageUpload_page2":
+            MessageLookupByLibrary.simpleMessage("(يتم دعم ملف ‎.jpg فقط)"),
+        "signup_subtitle1_page2": MessageLookupByLibrary.simpleMessage(
+            "١. قم برفع أي أثبات شخصية (الهوية)"),
+        "signup_subtitle2_page2": MessageLookupByLibrary.simpleMessage(
+            "٢. ان كنت وافد، برجاء رفع بطاقة الإقامة"),
+        "signup_subtitle3_page2": MessageLookupByLibrary.simpleMessage(
+            "٣. قم برفع رخصة القيادة (سارية)"),
+        "signup_title_page2":
+            MessageLookupByLibrary.simpleMessage("رفع المستندات الاثباتية"),
         "temperature": MessageLookupByLibrary.simpleMessage("الحراره"),
         "title": MessageLookupByLibrary.simpleMessage("مرحبا بك "),
         "type": MessageLookupByLibrary.simpleMessage("النوع"),

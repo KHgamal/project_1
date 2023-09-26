@@ -5,6 +5,7 @@ import 'package:project_1/core/services/injection_container.dart';
 import 'package:project_1/core/services/router.dart';
 import 'package:project_1/generated/l10n.dart';
 import 'package:project_1/src/dashboard/presentation/providers/dashboard_controller.dart';
+import 'package:project_1/src/splash/presentation/views/splash_screen.dart';
 import 'package:provider/provider.dart';
 
 void main() async{

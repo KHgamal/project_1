@@ -509,6 +509,156 @@ class S {
       args: [],
     );
   }
+
+  /// `this index is required`
+  String get error_creating_account {
+    return Intl.message(
+      'this index is required',
+      name: 'error_creating_account',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `please enter a valid number`
+  String get error_number_length {
+    return Intl.message(
+      'please enter a valid number',
+      name: 'error_number_length',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `confirm password and password must be the same`
+  String get error_password_match {
+    return Intl.message(
+      'confirm password and password must be the same',
+      name: 'error_password_match',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `not less than 4 characters`
+  String get error_name_length {
+    return Intl.message(
+      'not less than 4 characters',
+      name: 'error_name_length',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `not less than 6 characters`
+  String get error_password_length {
+    return Intl.message(
+      'not less than 6 characters',
+      name: 'error_password_length',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `must accept terms and conditions to continue`
+  String get error_terms_accept {
+    return Intl.message(
+      'must accept terms and conditions to continue',
+      name: 'error_terms_accept',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `upload verification documents`
+  String get signup_title_page2 {
+    return Intl.message(
+      'upload verification documents',
+      name: 'signup_title_page2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `upload any id card for you`
+  String get signup_subtitle1_page2 {
+    return Intl.message(
+      'upload any id card for you',
+      name: 'signup_subtitle1_page2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `(only files of type jpg are supported)`
+  String get signup_imageUpload_page2 {
+    return Intl.message(
+      '(only files of type jpg are supported)',
+      name: 'signup_imageUpload_page2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `choose file to upload`
+  String get signup_imageUploadText1_page2 {
+    return Intl.message(
+      'choose file to upload',
+      name: 'signup_imageUploadText1_page2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `if you are a foreign then upload`
+  String get signup_subtitle2_page2 {
+    return Intl.message(
+      'if you are a foreign then upload',
+      name: 'signup_subtitle2_page2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `upload driving licence`
+  String get signup_subtitle3_page2 {
+    return Intl.message(
+      'upload driving licence',
+      name: 'signup_subtitle3_page2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `choose file to upload`
+  String get signup_imageUploadText2_page2 {
+    return Intl.message(
+      'choose file to upload',
+      name: 'signup_imageUploadText2_page2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `HI!  👋`
+  String get hi {
+    return Intl.message(
+      'HI!  👋',
+      name: 'hi',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Or`
+  String get or {
+    return Intl.message(
+      'Or',
+      name: 'or',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

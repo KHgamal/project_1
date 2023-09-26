@@ -37,7 +37,16 @@ class TermsAndConditionsCheckboxState extends State<TermsAndConditionsCheckbox> 
             });
           },
         ),
-        Text(S.of(context).agree_terms),
+        InkWell(
+          splashColor: Colors.transparent,
+        highlightColor: Colors.transparent,
+        onTap: (){
+    setState(() {
+    _isChecked = !_isChecked;
+    widget.onChanged(_isChecked);
+    });
+    }
+        ,child: Text(S.of(context).agree_terms)),
       ],
     );
   }

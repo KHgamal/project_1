@@ -44,5 +44,21 @@
   "remember_me":"Remember me",
   "forget_password":"Did you forget your password ?",
   "sign_up_text_button":"Sign up",
-  "do_not_have_account":"don't have an account ?"
+  "do_not_have_account":"don't have an account ?",
+  "error_creating_account":"this index is required",
+  "error_number_length":"please enter a valid number",
+  "error_password_match":"confirm password and password must be the same",
+  "error_name_length":"not less than 4 characters",
+  "error_password_length":"not less than 6 characters",
+  "error_terms_accept":"must accept terms and conditions to continue",
+  "signup_title_page2":"upload verification documents",
+  "signup_subtitle1_page2":"upload any id card for you",
+  "signup_imageUpload_page2":"(only files of type jpg are supported)",
+  "signup_imageUploadText1_page2":"choose file to upload",
+  "signup_subtitle2_page2":"if you are a foreign then upload",
+  "signup_subtitle3_page2":"upload driving licence",
+  "signup_imageUploadText2_page2":"choose file to upload",
+
+  "hi":"HI!  \uD83D\uDC4B",
+  "or":"Or"
 }

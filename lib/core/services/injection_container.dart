@@ -5,5 +5,6 @@ import 'package:project_1/core/common/feature/product/domain/repository/products
 import 'package:project_1/core/common/feature/product/domain/usecase/get_all_products_use_case.dart';
 import 'package:project_1/core/common/feature/product/presentation/cubit/get_products_cubit.dart';
 import 'package:http/http.dart' as http;
+import 'package:shared_preferences/shared_preferences.dart';
 
 part 'injection_container.main.dart';

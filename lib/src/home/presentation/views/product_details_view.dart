@@ -6,6 +6,8 @@ import 'package:project_1/src/home/presentation/widgets/shipping_information_con
 import 'package:project_1/src/home/presentation/widgets/default_button.dart';
 import 'package:project_1/generated/l10n.dart';
 
+import '../../../../core/res/colours.dart';
+
 class ProductView extends StatelessWidget {
   const ProductView({required this.product,Key? key}) : super(key: key);
   static const route = '/product_details';
@@ -38,7 +40,10 @@ class ProductView extends StatelessWidget {
                 ],
               ),
             ),
-            MyButton(title: S.of(context).send_offer, onPressed: () {}),
+            MyButton(title: S.of(context).send_offer,
+              onPressed: () {},
+              textColor: Colors.white,
+              buttonColor: Colours.primaryColour,),
           ],
         ),
     );

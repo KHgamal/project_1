@@ -1,12 +1,13 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:project_1/core/res/styles.dart';
-
+import 'package:project_1/generated/l10n.dart';
 import '../../../../core/res/colours.dart';
+
 class DefaultFormField extends StatefulWidget {
   final TextEditingController controller;
   final String label;
-  final Function validate;
+  final String? Function(String?)? validate;
+  final bool hasValidator;
   final bool isPassword;
   final Color borderColor;
   final double height;
@@ -16,10 +17,11 @@ class DefaultFormField extends StatefulWidget {
   final TextStyle? hintStyle;
 
 
-  DefaultFormField({
+  const DefaultFormField({super.key,
+    this.hasValidator=false,
     required this.controller,
     required this.label,
-    required this.validate,
+    this.validate,
     this.isPassword = false,
     this.borderColor = Colours.primaryColour,
     this.height = 47.0,
@@ -30,10 +32,10 @@ class DefaultFormField extends StatefulWidget {
   });
 
   @override
-  _DefaultFormFieldState createState() => _DefaultFormFieldState();
+  DefaultFormFieldState createState() => DefaultFormFieldState();
 }
 
-class _DefaultFormFieldState extends State<DefaultFormField> {
+class DefaultFormFieldState extends State<DefaultFormField> {
   bool obscureText = false;
 
   @override
@@ -44,14 +46,19 @@ class _DefaultFormFieldState extends State<DefaultFormField> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       width: widget.width,
 
       child: TextFormField(
         controller: widget.controller,
-        validator: (value) {
-          return widget.validate(value);
-        },
+        validator: (widget.hasValidator)? widget.validate!:
+        (text){
+          if(text == null || text.isEmpty){
+            return S.of(context).error_creating_account;
+          }
+          return null;
+        }
+        ,
         obscureText: obscureText,
         decoration: InputDecoration(
           contentPadding: widget.hintPadding,

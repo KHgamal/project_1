@@ -1,13 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:project_1/core/res/styles.dart';
+import 'package:project_1/src/authentication/presentation/views/sign_up.dart';
 import 'package:project_1/src/home/presentation/widgets/default_button.dart';
-
 import '../../../../core/res/colours.dart';
 import '../widgets/logo_image.dart';
 import '../../../../generated/l10n.dart';
 import '../widgets/text_field.dart';
+
 class LoginView extends StatelessWidget {
    const LoginView({Key? key}) : super(key: key);
+   static const route = '/login';
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -64,7 +67,11 @@ class LoginView extends StatelessWidget {
                   ],
                 ),
                 const SizedBox(height: 8,),
-                MyButton(title: S.of(context).login_title, onPressed: (){}),
+                MyButton(title: S.of(context).login_title,
+                  onPressed: (){},
+                  textColor: Colors.white,
+                  buttonColor: Colours.primaryColour,
+                ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -72,7 +79,9 @@ class LoginView extends StatelessWidget {
                     style: Styles.textFieldLabel.copyWith(
                         color: Colors.black.withOpacity(0.62)),),
                     TextButton(
-                      onPressed: (){},
+                      onPressed: (){
+                        Navigator.pushNamed(context, SignUpScreen.route);
+                      },
                       child: Text(S.of(context).sign_up_text_button,
                         style: Styles.textFieldLabel.copyWith(
                           decoration:TextDecoration.underline ),),

@@ -49,6 +49,18 @@ class MessageLookup extends MessageLookupByLibrary {
         "enter_email": MessageLookupByLibrary.simpleMessage("Enter your email"),
         "enter_phone_number":
             MessageLookupByLibrary.simpleMessage("Enter your phone number"),
+        "error_creating_account":
+            MessageLookupByLibrary.simpleMessage("this index is required"),
+        "error_name_length":
+            MessageLookupByLibrary.simpleMessage("not less than 4 characters"),
+        "error_number_length":
+            MessageLookupByLibrary.simpleMessage("please enter a valid number"),
+        "error_password_length":
+            MessageLookupByLibrary.simpleMessage("not less than 6 characters"),
+        "error_password_match": MessageLookupByLibrary.simpleMessage(
+            "confirm password and password must be the same"),
+        "error_terms_accept": MessageLookupByLibrary.simpleMessage(
+            "must accept terms and conditions to continue"),
         "fill_form":
             MessageLookupByLibrary.simpleMessage("Please fill out the form"),
         "floor_number": MessageLookupByLibrary.simpleMessage("Floor number"),
@@ -56,6 +68,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Did you forget your password ?"),
         "full_name":
             MessageLookupByLibrary.simpleMessage("Enter your full name"),
+        "hi": MessageLookupByLibrary.simpleMessage("HI!  👋"),
         "humidity": MessageLookupByLibrary.simpleMessage("Humidity"),
         "login_hint": MessageLookupByLibrary.simpleMessage(
             "please , login to your account to continue"),
@@ -64,6 +77,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "navbar_main": MessageLookupByLibrary.simpleMessage("Home"),
         "navbar_offers": MessageLookupByLibrary.simpleMessage("Home"),
         "navbar_profile": MessageLookupByLibrary.simpleMessage("Home"),
+        "or": MessageLookupByLibrary.simpleMessage("Or"),
         "password_label": MessageLookupByLibrary.simpleMessage("password"),
         "phone_number": MessageLookupByLibrary.simpleMessage("Phone number"),
         "phone_number_example":
@@ -88,6 +102,20 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Shipping information"),
         "shipping_type": MessageLookupByLibrary.simpleMessage("Shipping type"),
         "sign_up_text_button": MessageLookupByLibrary.simpleMessage("Sign up"),
+        "signup_imageUploadText1_page2":
+            MessageLookupByLibrary.simpleMessage("choose file to upload"),
+        "signup_imageUploadText2_page2":
+            MessageLookupByLibrary.simpleMessage("choose file to upload"),
+        "signup_imageUpload_page2": MessageLookupByLibrary.simpleMessage(
+            "(only files of type jpg are supported)"),
+        "signup_subtitle1_page2":
+            MessageLookupByLibrary.simpleMessage("upload any id card for you"),
+        "signup_subtitle2_page2": MessageLookupByLibrary.simpleMessage(
+            "if you are a foreign then upload"),
+        "signup_subtitle3_page2":
+            MessageLookupByLibrary.simpleMessage("upload driving licence"),
+        "signup_title_page2": MessageLookupByLibrary.simpleMessage(
+            "upload verification documents"),
         "temperature": MessageLookupByLibrary.simpleMessage("Temperature"),
         "title": MessageLookupByLibrary.simpleMessage("Welcome"),
         "type": MessageLookupByLibrary.simpleMessage(" Type "),
