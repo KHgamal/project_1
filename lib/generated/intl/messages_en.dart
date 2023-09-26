@@ -36,12 +36,15 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Create Account"),
         "create_password":
             MessageLookupByLibrary.simpleMessage("Create your password"),
+        "data_saving": MessageLookupByLibrary.simpleMessage("save data"),
         "destination_region":
             MessageLookupByLibrary.simpleMessage("Destination region"),
         "distinctive_mark":
             MessageLookupByLibrary.simpleMessage("Distinctive mark"),
         "do_not_have_account":
             MessageLookupByLibrary.simpleMessage("don\'t have an account ?"),
+        "document_verification":
+            MessageLookupByLibrary.simpleMessage("Document verification"),
         "email_example":
             MessageLookupByLibrary.simpleMessage("example@mail.com"),
         "email_label":
@@ -114,12 +117,30 @@ class MessageLookup extends MessageLookupByLibrary {
             "if you are a foreign then upload"),
         "signup_subtitle3_page2":
             MessageLookupByLibrary.simpleMessage("upload driving licence"),
+        "signup_subtitle4_page2":
+            MessageLookupByLibrary.simpleMessage("4. Upload the vehicle form"),
+        "signup_subtitle5_page2":
+            MessageLookupByLibrary.simpleMessage("5. Upload the driver card"),
+        "signup_subtitle6_page2":
+            MessageLookupByLibrary.simpleMessage("6. Upload the driver card"),
+        "signup_subtitle7_page2": MessageLookupByLibrary.simpleMessage(
+            "7. Upload a transfer document"),
         "signup_title_page2": MessageLookupByLibrary.simpleMessage(
             "upload verification documents"),
+        "start_charging":
+            MessageLookupByLibrary.simpleMessage("start charging"),
         "temperature": MessageLookupByLibrary.simpleMessage("Temperature"),
         "title": MessageLookupByLibrary.simpleMessage("Welcome"),
         "type": MessageLookupByLibrary.simpleMessage(" Type "),
         "user_name": MessageLookupByLibrary.simpleMessage("Ahmed"),
+        "verification_done_body": MessageLookupByLibrary.simpleMessage(
+            "All documents have been verified, and you can start directlyً"),
+        "verification_done_head":
+            MessageLookupByLibrary.simpleMessage("Congratulations!"),
+        "verification_loading_body": MessageLookupByLibrary.simpleMessage(
+            "Our team is now verifying the authenticity of the supporting documents"),
+        "verification_loading_head":
+            MessageLookupByLibrary.simpleMessage("Please wait a few minutes"),
         "weight": MessageLookupByLibrary.simpleMessage("Weight")
       };
 }

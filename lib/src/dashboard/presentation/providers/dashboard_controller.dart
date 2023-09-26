@@ -7,6 +7,8 @@ import 'package:project_1/core/services/injection_container.dart';
 import 'package:project_1/src/home/presentation/views/home_view.dart';
 import 'package:provider/provider.dart';
 
+import '../../../authentication/presentation/views/login_view.dart';
+
 class DashboardController extends ChangeNotifier{
 
   int _currentIndex = 2;

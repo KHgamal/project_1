@@ -4,6 +4,6 @@ class LogoImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(child: Image.asset("assets/images/Logo.png" , width: 83, height: 87,));
+    return Center(child: Image.asset("assets/images/Logo1.png" , width: 83, height: 87,));
   }
 }

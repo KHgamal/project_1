@@ -26,7 +26,7 @@ class SignUpHeader extends StatelessWidget {
             top: 40,
             right: (size.width*0.5-(83/2)-33),
             child: Image.asset(
-              Media.logo,
+              Media.logo1,
               alignment: Alignment.bottomCenter,
               height: 87,
               width: 83,

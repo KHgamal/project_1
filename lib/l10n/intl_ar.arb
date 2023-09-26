@@ -2,9 +2,11 @@
   "title": "مرحبا بك ",
   "user_name": "احمد",
   "product_title": "منتجات اليوم",
+
   "navbar_main": "الرئيسيه",
   "navbar_offers": "العروض",
   "navbar_profile": "حسابى",
+
   "product_detail_title": "معلومات المنتج",
   "sender_info": "معلومات المرسل",
   "receiver_info": "معلومات المرسل إليه",
@@ -25,6 +27,7 @@
   "product_name": " أسم المنتج",
   "type": "النوع",
   "send_offer": "ارسل عرض",
+
   "create_account": "إنشاء حساب",
   "fill_form": "يرجى ملء النموذج التالي لإنشاء حسابك",
   "full_name": "ادخل الاسم بالكامل",
@@ -37,6 +40,7 @@
   "confirm_password": "تأكيد الرقم السري",
   "agree_terms": "أوافق على تطبيق الشروط والأحكام",
   "save_complete": "احفظ واكمل إنشاء حسابك",
+
   "login_title": "تسجيل دخول",
   "login_hint": "يرجى تسجيل الدخول إلى حسابك للمتابعة.",
   "email_label":"ادخل البريد الالكتروني او رقم الهاتف",
@@ -46,12 +50,14 @@
   "sign_up_text_button":"اشتراك",
   "or":"أو",
   "do_not_have_account":"ليس لديك حساب؟",
+
   "error_creating_account":"هذه الخانة مطلوبة",
   "error_number_length":"برجاء إدخال رقم صحيح",
   "error_password_match":"برجاء التأكد من انه يطابق رقمك السري",
   "error_name_length":"لا يجب أن يقل عن أربع حروف",
   "error_password_length":"لا يجب أن يقل عن ستة أحرف",
   "error_terms_accept":"يجب الموافقة علي الشروط و الأحكام للمتابعة",
+
   "signup_title_page2":"رفع المستندات الاثباتية",
   "signup_subtitle1_page2":"١. قم برفع أي أثبات شخصية (الهوية)",
   "signup_imageUpload_page2":"(يتم دعم ملف \u200E.jpg فقط)",
@@ -60,5 +66,17 @@
   "signup_subtitle3_page2":"٣. قم برفع رخصة القيادة (سارية)",
   "signup_imageUploadText2_page2":"اختر ملفًا لتحميل رخصتك.",
 
-  "hi":"هلا!  \uD83D\uDC4B"
+  "signup_subtitle4_page2":"٤. قم برفع استمارة المركبة (سارية)",
+  "signup_subtitle5_page2":"٥. قم برفع كارت التشغيل",
+  "signup_subtitle6_page2":"٦. قم برفع بطاقة سائق",
+  "signup_subtitle7_page2":"٧. قم برفع وثيقة نقل",
+  "data_saving": "حفظ البيانات",
+
+  "hi":"هلا!  \uD83D\uDC4B",
+  "document_verification": "التحقق من المستندات",
+  "verification_loading_head": "برجاء الانتظار بضع دقائق",
+  "verification_loading_body": "يقوم الآن فريقنا بالتأكد من صحة المستندات الاثباتية",
+  "start_charging": "بدأ الشحن",
+  "verification_done_head": "تهانينا !",
+  "verification_done_body": "تم التأكد من جميع المستندات، و يمكنك البدأ مباشرتاً"
 }

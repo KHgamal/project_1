@@ -49,4 +49,12 @@ abstract class Styles{
       fontSize:18 , fontWeight: FontWeight.w500 , color: Colours.primaryColour,
       fontFamily: Fonts.cairo
   );
+  static const textStyle20Head=TextStyle(
+      fontSize:20 , fontWeight: FontWeight.w700 ,
+      fontFamily: Fonts.cairo
+  );
+  static const textStyle20Body=TextStyle(
+      fontSize:20 , fontWeight: FontWeight.w500 ,
+      fontFamily: Fonts.cairo
+  );
 }

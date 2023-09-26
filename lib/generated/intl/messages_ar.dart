@@ -33,11 +33,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "create_account": MessageLookupByLibrary.simpleMessage("إنشاء حساب"),
         "create_password":
             MessageLookupByLibrary.simpleMessage("انشئ رقمك السري"),
+        "data_saving": MessageLookupByLibrary.simpleMessage("حفظ البيانات"),
         "destination_region":
             MessageLookupByLibrary.simpleMessage("المنطقه المرسل اليها"),
         "distinctive_mark": MessageLookupByLibrary.simpleMessage("علامه مميزه"),
         "do_not_have_account":
             MessageLookupByLibrary.simpleMessage("ليس لديك حساب؟"),
+        "document_verification":
+            MessageLookupByLibrary.simpleMessage("التحقق من المستندات"),
         "email_example":
             MessageLookupByLibrary.simpleMessage("example@mail.com"),
         "email_label": MessageLookupByLibrary.simpleMessage(
@@ -107,12 +110,29 @@ class MessageLookup extends MessageLookupByLibrary {
             "٢. ان كنت وافد، برجاء رفع بطاقة الإقامة"),
         "signup_subtitle3_page2": MessageLookupByLibrary.simpleMessage(
             "٣. قم برفع رخصة القيادة (سارية)"),
+        "signup_subtitle4_page2": MessageLookupByLibrary.simpleMessage(
+            "٤. قم برفع استمارة المركبة (سارية)"),
+        "signup_subtitle5_page2":
+            MessageLookupByLibrary.simpleMessage("٥. قم برفع كارت التشغيل"),
+        "signup_subtitle6_page2":
+            MessageLookupByLibrary.simpleMessage("٦. قم برفع بطاقة سائق"),
+        "signup_subtitle7_page2":
+            MessageLookupByLibrary.simpleMessage("٧. قم برفع وثيقة نقل"),
         "signup_title_page2":
             MessageLookupByLibrary.simpleMessage("رفع المستندات الاثباتية"),
+        "start_charging": MessageLookupByLibrary.simpleMessage("بدأ الشحن"),
         "temperature": MessageLookupByLibrary.simpleMessage("الحراره"),
         "title": MessageLookupByLibrary.simpleMessage("مرحبا بك "),
         "type": MessageLookupByLibrary.simpleMessage("النوع"),
         "user_name": MessageLookupByLibrary.simpleMessage("احمد"),
+        "verification_done_body": MessageLookupByLibrary.simpleMessage(
+            "تم التأكد من جميع المستندات، و يمكنك البدأ مباشرتاً"),
+        "verification_done_head":
+            MessageLookupByLibrary.simpleMessage("تهانينا !"),
+        "verification_loading_body": MessageLookupByLibrary.simpleMessage(
+            "يقوم الآن فريقنا بالتأكد من صحة المستندات الاثباتية"),
+        "verification_loading_head":
+            MessageLookupByLibrary.simpleMessage("برجاء الانتظار بضع دقائق"),
         "weight": MessageLookupByLibrary.simpleMessage("الوزن")
       };
 }

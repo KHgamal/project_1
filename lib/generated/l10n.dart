@@ -640,6 +640,56 @@ class S {
     );
   }
 
+  /// `4. Upload the vehicle form`
+  String get signup_subtitle4_page2 {
+    return Intl.message(
+      '4. Upload the vehicle form',
+      name: 'signup_subtitle4_page2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `5. Upload the driver card`
+  String get signup_subtitle5_page2 {
+    return Intl.message(
+      '5. Upload the driver card',
+      name: 'signup_subtitle5_page2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `6. Upload the driver card`
+  String get signup_subtitle6_page2 {
+    return Intl.message(
+      '6. Upload the driver card',
+      name: 'signup_subtitle6_page2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `7. Upload a transfer document`
+  String get signup_subtitle7_page2 {
+    return Intl.message(
+      '7. Upload a transfer document',
+      name: 'signup_subtitle7_page2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `save data`
+  String get data_saving {
+    return Intl.message(
+      'save data',
+      name: 'data_saving',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `HI!  👋`
   String get hi {
     return Intl.message(
@@ -655,6 +705,66 @@ class S {
     return Intl.message(
       'Or',
       name: 'or',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Document verification`
+  String get document_verification {
+    return Intl.message(
+      'Document verification',
+      name: 'document_verification',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please wait a few minutes`
+  String get verification_loading_head {
+    return Intl.message(
+      'Please wait a few minutes',
+      name: 'verification_loading_head',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Our team is now verifying the authenticity of the supporting documents`
+  String get verification_loading_body {
+    return Intl.message(
+      'Our team is now verifying the authenticity of the supporting documents',
+      name: 'verification_loading_body',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `start charging`
+  String get start_charging {
+    return Intl.message(
+      'start charging',
+      name: 'start_charging',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Congratulations!`
+  String get verification_done_head {
+    return Intl.message(
+      'Congratulations!',
+      name: 'verification_done_head',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `All documents have been verified, and you can start directlyً`
+  String get verification_done_body {
+    return Intl.message(
+      'All documents have been verified, and you can start directlyً',
+      name: 'verification_done_body',
       desc: '',
       args: [],
     );

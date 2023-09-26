@@ -2,23 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:project_1/core/res/colours.dart';
 class MyButton extends StatelessWidget{
   const MyButton({super.key,
-    required this.title,
     required this.onPressed,
-    required this.textColor,
-    required this.buttonColor,
+    required this.buttonColor, required this.child, this.border,
 
   });
-
-  final String title;
-  final Color textColor;
+  final Widget child;
   final Color buttonColor;
   final VoidCallback onPressed;
+  final border;
   @override
   Widget build(BuildContext context) {
     return  Container(
       decoration: BoxDecoration(
         color: buttonColor,
-        border:Border.all( color: Colours.primaryColour),
+        border:border??Border.all(width: 0),
         borderRadius: BorderRadius.circular(8.0),
       ),
       margin: const EdgeInsets.only(bottom: 12),
@@ -26,8 +23,8 @@ class MyButton extends StatelessWidget{
         onPressed: onPressed,
         minWidth: 343,
         height:  48,
-        child: Text(title,style:TextStyle(color: textColor),),
-      ),
+        child: child),
+
     );
 
   }

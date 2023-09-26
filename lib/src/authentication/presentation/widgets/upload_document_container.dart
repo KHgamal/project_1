@@ -32,8 +32,8 @@ class UploadDocumentContainer extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              const Icon(Icons.file_upload_outlined,
-              size: 28,color: Colours.primaryColour,
+               Icon(Icons.file_upload_outlined,
+              size: 28,color: Colours.primaryColour.withOpacity(0.42),
 
               ),
               (defaultText)?

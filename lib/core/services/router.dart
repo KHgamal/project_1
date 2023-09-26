@@ -9,6 +9,8 @@ import 'package:project_1/src/home/presentation/views/product_details_view.dart'
 import 'package:project_1/src/splash/presentation/views/splash_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../../src/authentication/presentation/views/document_verification_done.dart';
+import '../../src/authentication/presentation/views/document_verification_loading.dart';
 import 'injection_container.dart';
 
 part 'router.main.dart';

@@ -40,10 +40,12 @@ class ProductView extends StatelessWidget {
                 ],
               ),
             ),
-            MyButton(title: S.of(context).send_offer,
+            MyButton(
               onPressed: () {},
-              textColor: Colors.white,
-              buttonColor: Colours.primaryColour,),
+              buttonColor: Colours.primaryColour,
+              child: Text(S.of(context).send_offer, style: const TextStyle(
+                  color: Colors.white
+              ),),),
           ],
         ),
     );

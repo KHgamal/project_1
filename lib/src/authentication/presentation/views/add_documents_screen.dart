@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:project_1/core/res/colours.dart';
 import 'package:project_1/core/res/styles.dart';
 import 'package:project_1/generated/l10n.dart';
 import 'package:project_1/src/authentication/presentation/bloc/sign_up/sign_up_cubit.dart';
 import 'package:project_1/src/authentication/presentation/widgets/sign_up_header.dart';
 import 'package:project_1/src/authentication/presentation/widgets/upload_document_container.dart';
+import 'package:project_1/src/home/presentation/widgets/default_button.dart';
+
+import 'document_verification_loading.dart';
 
 class AddDocumentsScreen extends StatelessWidget {
   const AddDocumentsScreen({
@@ -183,6 +187,7 @@ class AddDocumentsScreen extends StatelessWidget {
                   const SizedBox(
                     height: 15,
                   ),
+
                   Text(S.of(context).signup_subtitle3_page2, style: Styles.textStyle16Detailed,),
                   const SizedBox(
                     height: 10,
@@ -192,6 +197,66 @@ class AddDocumentsScreen extends StatelessWidget {
                     },
                     defaultText: true,
                   ),
+                  const SizedBox(
+                    height: 10,
+                  ),
+
+                  Text(S.of(context).signup_subtitle4_page2, style: Styles.textStyle16Detailed,),
+                  const SizedBox(
+                    height: 10,
+                  ),
+                  UploadDocumentContainer(
+                    function: (){
+                    },
+                    defaultText: true,
+                  ),
+                  const SizedBox(
+                    height: 10,
+                  ),
+
+                  Text(S.of(context).signup_subtitle5_page2, style: Styles.textStyle16Detailed,),
+                  const SizedBox(
+                    height: 10,
+                  ),
+                  UploadDocumentContainer(
+                    function: (){
+                    },
+                    defaultText: true,
+                  ),
+                  const SizedBox(
+                    height: 10,
+                  ),
+                  Text(S.of(context).signup_subtitle6_page2, style: Styles.textStyle16Detailed,),
+                  const SizedBox(
+                    height: 10,
+                  ),
+                  UploadDocumentContainer(
+                    function: (){
+                    },
+                    defaultText: true,
+                  ),
+                  const SizedBox(
+                    height: 10,
+                  ),
+                  Text(S.of(context).signup_subtitle7_page2, style: Styles.textStyle16Detailed,),
+                  const SizedBox(
+                    height: 10,
+                  ),
+                  UploadDocumentContainer(
+                    function: (){
+                    },
+                    defaultText: true,
+                  ),
+                  const SizedBox(
+                    height: 30,
+                  ),
+                 MyButton(onPressed: (){
+                   Navigator.pushNamed(context, DocumentVerificationLoading.route);
+                 },
+                     buttonColor: Colours.primaryColour,
+                     child: Text(S.of(context).data_saving , style: const TextStyle(
+                       color: Colors.white
+                     ),))
 
                 ],
               ),

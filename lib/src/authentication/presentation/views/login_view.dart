@@ -13,10 +13,10 @@ class LoginView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        backgroundColor: Colors.white,
-        body: Padding(
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: SafeArea(
+        child: Padding(
           padding: const EdgeInsets.only(top:20 , left: 20 , right: 20),
           child: SingleChildScrollView(
             child: Column(
@@ -67,10 +67,12 @@ class LoginView extends StatelessWidget {
                   ],
                 ),
                 const SizedBox(height: 8,),
-                MyButton(title: S.of(context).login_title,
+                MyButton(
                   onPressed: (){},
-                  textColor: Colors.white,
                   buttonColor: Colours.primaryColour,
+                  child: Text(S.of(context).login_title, style: const TextStyle(
+                  color: Colors.white
+                  ),),
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,

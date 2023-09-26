@@ -31,6 +31,15 @@ Route<dynamic> generateFunction(RouteSettings settings){
   ,child:  SignUpScreen()),
         settings: settings,);
 
+    case '/DocumentVerificationDone':
+      return _pageBuilder((_) =>
+      const DocumentVerificationDone(),
+        settings: settings,);
+
+    case '/DocumentVerificationLoading':
+      return _pageBuilder((_) =>
+      const DocumentVerificationLoading(),
+        settings: settings,);
 
     default:
       return _pageBuilder((_) => const Scaffold(

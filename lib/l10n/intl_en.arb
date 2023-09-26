@@ -51,6 +51,7 @@
   "error_name_length":"not less than 4 characters",
   "error_password_length":"not less than 6 characters",
   "error_terms_accept":"must accept terms and conditions to continue",
+
   "signup_title_page2":"upload verification documents",
   "signup_subtitle1_page2":"upload any id card for you",
   "signup_imageUpload_page2":"(only files of type jpg are supported)",
@@ -59,6 +60,18 @@
   "signup_subtitle3_page2":"upload driving licence",
   "signup_imageUploadText2_page2":"choose file to upload",
 
+  "signup_subtitle4_page2":"4. Upload the vehicle form",
+  "signup_subtitle5_page2":"5. Upload the driver card",
+  "signup_subtitle6_page2":"6. Upload the driver card",
+  "signup_subtitle7_page2":"7. Upload a transfer document",
+  "data_saving": "save data",
+
   "hi":"HI!  \uD83D\uDC4B",
-  "or":"Or"
+  "or":"Or",
+  "document_verification": "Document verification",
+  "verification_loading_head": "Please wait a few minutes",
+  "verification_loading_body": "Our team is now verifying the authenticity of the supporting documents",
+  "start_charging": "start charging",
+  "verification_done_head": "Congratulations!",
+  "verification_done_body": "All documents have been verified, and you can start directlyً"
 }

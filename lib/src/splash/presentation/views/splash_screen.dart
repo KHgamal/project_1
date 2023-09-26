@@ -90,20 +90,24 @@ class _SplashScreenState extends State<SplashScreen> {
                       const SizedBox(
                         height: 15,
                       ),
-                      MyButton(title: S.of(context).login_title,
+                      MyButton(
                         onPressed: (){
                         Navigator.pushReplacementNamed(context, LoginView.route);
                         },
-                        textColor: Colors.white,
                         buttonColor: Colours.primaryColour,
+                        child: Text(S.of(context).login_title, style: const TextStyle(
+                            color: Colors.white
+                        ),),
                       ),
-                      MyButton(title: S.of(context).create_account,
+                      MyButton(
                         onPressed: (){
                           Navigator.pushNamed(context, SignUpScreen.route);
-
                         },
-                        textColor: Colours.primaryColour,
                         buttonColor: Colors.white,
+                        border: Border.all(color: Colours.primaryColour),
+                        child: Text(S.of(context).create_account, style: const TextStyle(
+                            color: Colours.primaryColour ,
+                        ),),
                       ),
                     ],
                   ),
